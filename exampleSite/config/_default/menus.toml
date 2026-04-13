@@ -1,0 +1,97 @@
+[[main]]
+name = "소개"
+identifier = "about"
+pageRef = "/about/"
+weight = 10
+
+[[main]]
+name = "프로필"
+identifier = "about_profile"
+pageRef = "/about/"
+parent = "about"
+weight = 11
+params = {anchor = "profile"}
+
+[[main]]
+name = "이력"
+identifier = "about_story"
+pageRef = "/about/"
+parent = "about"
+weight = 12
+params = {anchor = "story"}
+
+[[main]]
+name = "연락"
+identifier = "about_contact"
+pageRef = "/about/"
+parent = "about"
+weight = 13
+params = {anchor = "contact"}
+
+[[main]]
+name = "개발"
+identifier = "dev"
+pageRef = "/dev/"
+weight = 20
+
+[[main]]
+name = "보안"
+identifier = "dev_security"
+pageRef = "/dev/"
+parent = "dev"
+weight = 21
+params = {anchor = "security"}
+
+[[main]]
+name = "해커톤"
+identifier = "dev_hackathon"
+pageRef = "/dev/"
+parent = "dev"
+weight = 22
+params = {anchor = "hackathon"}
+
+[[main]]
+name = "BCG"
+identifier = "dev_bcg"
+pageRef = "/dev/"
+parent = "dev"
+weight = 23
+params = {anchor = "bcg"}
+
+[[main]]
+name = "모디로봇대회"
+identifier = "dev_modi"
+pageRef = "/dev/"
+parent = "dev"
+weight = 24
+params = {anchor = "modirobot"}
+
+[[main]]
+name = "위치"
+identifier = "location"
+pageRef = "/location/"
+weight = 30
+
+[[main]]
+name = "캠퍼스"
+identifier = "location_campus"
+pageRef = "/location/"
+parent = "location"
+weight = 31
+params = {anchor = "campus"}
+
+[[main]]
+name = "작업공간"
+identifier = "location_workspace"
+pageRef = "/location/"
+parent = "location"
+weight = 32
+params = {anchor = "workspace"}
+
+[[main]]
+name = "오시는 길"
+identifier = "location_route"
+pageRef = "/location/"
+parent = "location"
+weight = 33
+params = {anchor = "route"}

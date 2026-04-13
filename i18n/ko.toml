@@ -1,0 +1,80 @@
+[home_eyebrow]
+other = "PORTFOLIO"
+
+[home_title]
+other = "신하윤의 개인 포트폴리오"
+
+[home_lead]
+other = "AI, 보안, 해커톤, 로봇 대회 경험을 한 번에 보여주는 다국어 포트폴리오 사이트입니다."
+
+[home_cta_about]
+other = "소개 보기"
+
+[home_cta_dev]
+other = "개발 보기"
+
+[home_cta_location]
+other = "위치 보기"
+
+[home_open]
+other = "열기"
+
+[menu_ko]
+other = "한국어"
+
+[menu_en]
+other = "English"
+
+[section_intro]
+other = "카테고리 소개"
+
+[section_back]
+other = "홈으로"
+
+[section_children]
+other = "하위 페이지"
+
+[page_back]
+other = "카테고리로"
+
+[footer_note]
+other = "개인 포트폴리오 사이트"
+
+[about]
+other = "소개"
+
+[about_profile]
+other = "프로필"
+
+[about_story]
+other = "이력"
+
+[about_contact]
+other = "연락"
+
+[dev]
+other = "개발"
+
+[dev_security]
+other = "보안"
+
+[dev_hackathon]
+other = "해커톤"
+
+[dev_bcg]
+other = "BCG"
+
+[dev_modi]
+other = "모디로봇대회"
+
+[location]
+other = "위치"
+
+[location_campus]
+other = "캠퍼스"
+
+[location_workspace]
+other = "작업공간"
+
+[location_route]
+other = "오시는 길"

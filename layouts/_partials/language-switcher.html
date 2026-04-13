@@ -1,0 +1,8 @@
+{{ $currentLang := .Site.Language.Lang }}
+{{ with .AllTranslations }}
+<div class="language-switcher">
+  {{ range . }}
+    <a class="lang-pill{{ if eq .Lang $currentLang }} active{{ end }}" href="{{ .RelPermalink }}">{{ upper .Lang }}</a>
+  {{ end }}
+</div>
+{{ end }}

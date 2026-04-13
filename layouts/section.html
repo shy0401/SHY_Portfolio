@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="page-shell">
+  <div class="page-hero">
+    <p class="eyebrow">{{ T "section_intro" }}</p>
+    <h1>{{ .Title }}</h1>
+    <div class="page-content">{{ .Content }}</div>
+    <a class="section-link" href="{{ relLangURL "/" }}">{{ T "section_back" }}</a>
+  </div>
+</section>
+{{ end }}

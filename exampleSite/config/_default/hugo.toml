@@ -1,0 +1,60 @@
+baseURL = "/"
+languageCode = "ko"
+title = "SHY Portfolio"
+theme = "sans"
+publishDir = "public"
+
+defaultContentLanguage = "ko"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
+removePathAccents = true
+
+enableRobotsTXT = true
+summaryLength = 40
+defaultMarkdownHandler = "goldmark"
+
+[languages]
+  [languages.ko]
+    languageCode = "ko"
+    languageName = "한국어"
+    contentDir = "content/ko"
+    weight = 1
+    [languages.ko.params]
+      description = "신하윤의 포트폴리오"
+
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 2
+    [languages.en.params]
+      description = "Shin Ha-yoon's portfolio"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.146.0"
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = "page"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    lineNumbersInTable = false
