@@ -21,13 +21,6 @@
     {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
   {{- end }}
 
-  {{- $name := .Name }}
-  {{- with .Identifier }}
-    {{- with T . }}
-      {{- $name = . }}
-    {{- end }}
-  {{- end }}
-
   <li class="{{ if .Children }}has-children{{ end }}">
     <div class="menu-row">
       <a
@@ -36,7 +29,7 @@
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
           {{- end }}
         {{- end }}
-      >{{ $name }}</a>
+      >{{ .Name }}</a>
 
       {{- with .Children }}
         <button class="submenu-toggle" type="button" aria-label="Toggle submenu" data-submenu-toggle>+</button>

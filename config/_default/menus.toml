@@ -1,0 +1,115 @@
+[[main]]
+name = "Docs"
+identifier = "docs"
+pageRef = "/doc/"
+weight = 10
+
+[[main]]
+name = "Installation"
+identifier = "installation"
+pageRef = "/doc/installation/"
+parent = "docs"
+weight = 11
+
+[[main]]
+name = "Homepage"
+identifier = "homepage"
+pageRef = "/doc/homepage/"
+parent = "docs"
+weight = 12
+
+[[main]]
+name = "Taxonomy"
+identifier = "taxonomy"
+pageRef = "/doc/taxonomy/"
+parent = "docs"
+weight = 13
+
+[[main]]
+name = "Menu"
+identifier = "menu"
+pageRef = "/doc/menu/"
+parent = "docs"
+weight = 14
+
+[[main]]
+name = "Color Scheme"
+identifier = "color-scheme"
+pageRef = "/doc/color-scheme/"
+parent = "docs"
+weight = 15
+
+[[main]]
+name = "Front Matter"
+identifier = "front-matter"
+pageRef = "/doc/front-matter/"
+parent = "docs"
+weight = 16
+
+[[main]]
+name = "Params and Customization"
+identifier = "params-and-customization"
+pageRef = "/doc/params-and-customization/"
+parent = "docs"
+weight = 17
+
+[[main]]
+name = "Shortcodes"
+identifier = "shortcodes"
+pageRef = "/doc/shortcodes/"
+parent = "docs"
+weight = 18
+
+[[main]]
+name = "A Page Like This"
+identifier = "a-page-like-this"
+pageRef = "/doc/a-page-like-this/"
+parent = "docs"
+weight = 19
+
+[[main]]
+name = "Search"
+identifier = "search"
+pageRef = "/doc/search/"
+parent = "docs"
+weight = 20
+
+[[main]]
+name = "Comments"
+identifier = "comments"
+pageRef = "/doc/comments/"
+parent = "docs"
+weight = 21
+
+[[main]]
+name = "Hosting Your Site"
+identifier = "hosting-your-site"
+pageRef = "/doc/hosting-your-site/"
+parent = "docs"
+weight = 22
+
+[[main]]
+name = "Posts"
+identifier = "posts"
+pageRef = "/posts/"
+weight = 30
+
+[[main]]
+name = "Card Post"
+identifier = "card-post"
+pageRef = "/posts/card-post/"
+parent = "posts"
+weight = 31
+
+[[main]]
+name = "Categories"
+identifier = "categories"
+pageRef = "/categories/"
+weight = 40
+
+[[main]]
+name = "Category 1"
+identifier = "category-1"
+pageRef = "/categories/category-1/"
+parent = "categories"
+weight = 41

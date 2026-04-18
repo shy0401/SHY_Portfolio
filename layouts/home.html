@@ -40,10 +40,10 @@
       {{ if .HasChildren }}
       <article class="section-card">
         <div class="section-card-top">
-          <p class="section-kicker">{{ T .Identifier }}</p>
+          <p class="section-kicker">{{ .Name }}</p>
           <a class="section-link" href="{{ .URL }}">{{ T "home_open" }}</a>
         </div>
-        <h3><a href="{{ .URL }}">{{ T .Identifier }}</a></h3>
+        <h3><a href="{{ .URL }}">{{ .Name }}</a></h3>
         <p>{{ len .Children }} subpages available.</p>
         <div class="chip-row">
           {{ range .Children }}
@@ -51,7 +51,7 @@
             {{ with .Params.anchor }}
               {{ $childHref = printf "%s#%s" $childHref . }}
             {{ end }}
-            <a class="chip" href="{{ $childHref }}">{{ T .Identifier }}</a>
+            <a class="chip" href="{{ $childHref }}">{{ .Name }}</a>
           {{ end }}
         </div>
       </article>
