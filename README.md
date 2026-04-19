@@ -6,6 +6,7 @@ GitHub Actions + GitHub Pages로 자동 배포됩니다.
 ## 바로 접속
 
 - 메인 페이지: https://shy0401.github.io/SHY_Portfolio/
+- GitHub 저장소: https://github.com/shy0401/SHY_Portfolio
 - sitemap: https://shy0401.github.io/SHY_Portfolio/sitemap.xml
 - robots: https://shy0401.github.io/SHY_Portfolio/robots.txt
 
