@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://shy0401.github.io/SHY_Portfolio/"
 languageCode: "ko-kr"
 title: "SHY Portfolio"
 defaultContentLanguage: "ko"
@@ -7,7 +7,7 @@ enableRobotsTXT: true
 hasCJKLanguage: true
 summaryLength: 24
 relativeURLs: false
-canonifyURLs: false
+canonifyURLs: true
 uglyURLs: false
 disableKinds:
   - taxonomy
