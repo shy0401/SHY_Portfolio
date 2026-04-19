@@ -29,6 +29,11 @@ markup:
 pagination:
   pagerSize: 9
 
+sitemap:
+  filename: "sitemap-hugo.xml"
+  changefreq: "weekly"
+  priority: 0.7
+
 params:
   site_name_ko: "신하윤 보안 포트폴리오"
   site_name_en: "Ha-yoon Shin Security Portfolio"
