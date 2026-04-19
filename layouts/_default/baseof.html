@@ -8,6 +8,7 @@
   {{ $siteUrl := site.Params.site_url | default site.BaseURL }}
   {{ $defaultKeywords := cond $isKo site.Params.seo_keywords_ko site.Params.seo_keywords_en }}
   {{ $keywords := delimit $defaultKeywords ", " }}
+  {{ with .Params.keywords }}{{ $keywords = delimit . ", " }}{{ end }}
   {{ $ogImageRaw := .Params.image | default site.Params.og_image }}
   {{ $ogImage := cond (or (hasPrefix $ogImageRaw "http://") (hasPrefix $ogImageRaw "https://")) $ogImageRaw ($ogImageRaw | absURL) }}
 

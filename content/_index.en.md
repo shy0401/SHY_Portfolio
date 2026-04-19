@@ -3,6 +3,12 @@ title: Home
 date: 2026-04-19
 draft: false
 description: "Landing page of Ha-yoon Shin's security and developer portfolio"
+keywords:
+  - "전북대 신하윤"
+  - "신하윤"
+  - "전북대"
+  - "전북대 신하윤 자기소개서"
+  - "전북대 신하윤 포트폴리오"
 ---
 
 ## Security & Developer Portfolio Summary

@@ -34,7 +34,9 @@
     <div class="header-icons">
       <a href="{{ "search/" | relLangURL }}" aria-label="{{ if $isKo }}검색{{ else }}Search{{ end }}"><i class="fas fa-search"></i></a>
       <span aria-hidden="true"><i class="fas fa-globe"></i></span>
-      {{ range site.Home.AllTranslations }}
+      {{ $translations := .AllTranslations }}
+      {{ if not $translations }}{{ $translations = site.Home.AllTranslations }}{{ end }}
+      {{ range $translations }}
         <a class="lang-link {{ if eq .Lang $.Site.Language.Lang }}active{{ end }}" href="{{ .RelPermalink }}">{{ upper .Lang }}</a>
       {{ end }}
     </div>
