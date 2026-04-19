@@ -1,0 +1,18 @@
+{{ $img := .Params.image | default "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?auto=format&fit=crop&w=1200&q=80" }}
+{{ $imgSrc := cond (or (hasPrefix $img "http://") (hasPrefix $img "https://")) $img ($img | relURL) }}
+<article class="content-card">
+  <a class="content-card-image" href="{{ .RelPermalink }}">
+    <img src="{{ $imgSrc }}" alt="{{ .Title }}">
+    <span class="content-overlay"></span>
+  </a>
+  <div class="content-card-body">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.role }}<p class="card-meta">{{ . }}</p>{{ end }}
+    <p>{{ .Summary | plainify }}</p>
+    {{ with .Params.tags }}
+    <div class="chip-row">
+      {{ range first 4 . }}<span class="chip">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>

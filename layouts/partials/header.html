@@ -1,0 +1,42 @@
+<header class="site-header">
+  {{ $isKo := eq site.Language.Lang "ko" }}
+  <div class="container header-inner">
+    <a class="brand" href="{{ "/" | relLangURL }}">
+      <span class="brand-mark">
+        <img src="{{ site.Params.logo_image | relURL }}" alt="SHY Cyber Portfolio Logo">
+      </span>
+      <span class="brand-text">{{ if $isKo }}SHY Cyber Portfolio{{ else }}SHY Cyber Portfolio{{ end }}</span>
+    </a>
+
+    <nav class="main-nav">
+      {{ range site.Menus.main }}
+        {{ $href := .URL }}
+        {{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
+        {{ if .HasChildren }}
+        <div class="nav-item has-children" aria-haspopup="true">
+          <a class="nav-parent-link" href="{{ $href }}">{{ .Name }}</a>
+          <div class="sub-nav" role="menu" aria-label="{{ .Name }}">
+            {{ range .Children }}
+            {{ $childHref := .URL }}
+            {{ with .Page }}{{ $childHref = .RelPermalink }}{{ end }}
+            <a href="{{ $childHref }}" role="menuitem">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ else }}
+        <div class="nav-item">
+          <a href="{{ $href }}">{{ .Name }}</a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </nav>
+
+    <div class="header-icons">
+      <a href="{{ "search/" | relLangURL }}" aria-label="{{ if $isKo }}검색{{ else }}Search{{ end }}"><i class="fas fa-search"></i></a>
+      <span aria-hidden="true"><i class="fas fa-globe"></i></span>
+      {{ range site.Home.AllTranslations }}
+        <a class="lang-link {{ if eq .Lang $.Site.Language.Lang }}active{{ end }}" href="{{ .RelPermalink }}">{{ upper .Lang }}</a>
+      {{ end }}
+    </div>
+  </div>
+</header>

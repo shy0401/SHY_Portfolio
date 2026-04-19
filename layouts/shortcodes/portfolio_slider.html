@@ -1,0 +1,24 @@
+{{ $items := split (trim .Inner "\n") "\n" }}
+<div class="portfolio-slider">
+  {{ range $row := $items }}
+    {{ $line := trim $row " " }}
+    {{ if $line }}
+      {{ $parts := split $line "|" }}
+      {{ $src := index $parts 0 }}
+      {{ $title := "" }}
+      {{ $desc := "" }}
+      {{ if ge (len $parts) 2 }}{{ $title = index $parts 1 }}{{ end }}
+      {{ if ge (len $parts) 3 }}{{ $desc = index $parts 2 }}{{ end }}
+      {{ $imgSrc := cond (or (hasPrefix $src "http://") (hasPrefix $src "https://")) $src ($src | relURL) }}
+      <figure class="slider-item">
+        <div class="slider-media">
+          <img src="{{ $imgSrc }}" alt="{{ $title }}">
+        </div>
+        <figcaption class="slider-caption">
+          {{ if $title }}<h4>{{ $title }}</h4>{{ end }}
+          {{ if $desc }}<p>{{ $desc }}</p>{{ end }}
+        </figcaption>
+      </figure>
+    {{ end }}
+  {{ end }}
+</div>

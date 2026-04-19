@@ -1,0 +1,15 @@
+{{ if .link }}<a class="feature-card-link" href="{{ .link }}">{{ end }}
+<article class="feature-card">
+  <span class="feature-kicker">{{ .kicker }}</span>
+  <h3>{{ .title }}</h3>
+  <p>{{ .desc }}</p>
+  <div class="chip-row">
+    {{ range (split .tags ",") }}
+      <span class="chip">{{ trim . " " }}</span>
+    {{ end }}
+  </div>
+  {{ if .link_label }}
+  <span class="feature-link-label">{{ .link_label }}</span>
+  {{ end }}
+</article>
+{{ if .link }}</a>{{ end }}

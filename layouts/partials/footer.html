@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© {{ now.Year }} {{ if eq site.Language.Lang "ko" }}신하윤{{ else }}Ha-yoon Shin{{ end }} · {{ if eq site.Language.Lang "ko" }}보안/개발 진로 포트폴리오{{ else }}Security & Developer Career Portfolio{{ end }}</p>
+    <div class="footer-links">
+      <a href="{{ site.Params.github }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+      <a href="{{ site.Params.instagram }}" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="{{ site.Params.school_link }}" target="_blank" rel="noopener"><i class="fas fa-school"></i> JBNU</a>
+    </div>
+  </div>
+</footer>

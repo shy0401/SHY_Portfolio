@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07142B"/>
+      <stop offset="1" stop-color="#113A7B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 90) rotate(131.578) scale(380.411 542.427)">
+      <stop stop-color="#69A7FF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#69A7FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="62" y="62" width="1076" height="506" rx="28" fill="#0A1B3D" fill-opacity="0.72" stroke="#2F7DF6" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M168 164L232 186V240C232 279.168 206.656 315.62 168 327C129.344 315.62 104 279.168 104 240V186L168 164Z" fill="#2F7DF6"/>
+  <path d="M168 204V288" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <path d="M132 228H204" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <text x="280" y="218" fill="#AFCFFF" font-size="34" font-family="Segoe UI, Pretendard, sans-serif" font-weight="700">SHY CYBER SECURITY PORTFOLIO</text>
+  <text x="280" y="278" fill="white" font-size="56" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">신하윤 | Ha-yoon Shin</text>
+  <text x="280" y="340" fill="#D9E7FF" font-size="29" font-family="Segoe UI, Pretendard, sans-serif" font-weight="600">전북대학교 IT정보공학과 · 4학년 1학기</text>
+  <text x="280" y="392" fill="#D9E7FF" font-size="29" font-family="Segoe UI, Pretendard, sans-serif" font-weight="600">경찰간부후보생 시험 준비중 · 사이버수사대 지망</text>
+  <text x="280" y="444" fill="#D9E7FF" font-size="29" font-family="Segoe UI, Pretendard, sans-serif" font-weight="600">웹해킹 · 리버싱 · 포렌식 학습중</text>
+</svg>

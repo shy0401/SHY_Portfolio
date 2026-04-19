@@ -1,0 +1,5 @@
+{{- $content := .Content -}}
+{{- $prefix := "/" | relURL -}}
+{{- $content = replaceRE "href=\"/" (printf "href=\"%s" $prefix) $content -}}
+{{- $content = replaceRE "src=\"/" (printf "src=\"%s" $prefix) $content -}}
+{{- $content | safeHTML -}}

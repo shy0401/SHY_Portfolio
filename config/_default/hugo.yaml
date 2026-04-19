@@ -1,0 +1,302 @@
+baseURL: "/"
+languageCode: "ko-kr"
+title: "SHY Portfolio"
+defaultContentLanguage: "ko"
+defaultContentLanguageInSubdir: false
+enableRobotsTXT: true
+hasCJKLanguage: true
+summaryLength: 24
+relativeURLs: false
+canonifyURLs: false
+uglyURLs: false
+disableKinds:
+  - taxonomy
+  - term
+contentDir: "content"
+layoutDir: "layouts"
+staticDir:
+  - "static"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+
+pagination:
+  pagerSize: 9
+
+params:
+  site_name_ko: "신하윤 보안 포트폴리오"
+  site_name_en: "Ha-yoon Shin Security Portfolio"
+  site_url: "https://shy0401.github.io/SHY_Portfolio/"
+  tagline_ko: "보안 분석과 디지털 증거 기반 대응 역량을 준비하는 포트폴리오"
+  tagline_en: "A portfolio focused on security analysis and evidence-based cyber response."
+  brand_desc_ko: "전북대학교 IT정보공학과 신하윤의 보안·개발 포트폴리오"
+  brand_desc_en: "Security and developer portfolio of Ha-yoon Shin at Jeonbuk National University."
+  profile_name_ko: "신하윤"
+  profile_name_en: "Ha-yoon Shin"
+  school_ko: "전북대학교 IT정보공학과"
+  school_en: "IT Information Engineering, Jeonbuk National University"
+  semester_ko: "4학년 1학기 재학중"
+  semester_en: "4th Year, 1st Semester"
+  role_ko: "사이버수사대 지망 · 보안/개발 포트폴리오"
+  role_en: "Cyber Investigation Aspirant · Security & Developer Portfolio"
+  goal_ko: "경찰간부후보생 시험을 준비하며 공공 보안 분야 진로를 구체화하고 있습니다."
+  goal_en: "Preparing for the Police Officer Candidate Exam while shaping a public-sector cyber security path."
+  focus_ko: "웹해킹, 리버싱, 포렌식 중심의 분석 역량을 체계적으로 강화하고 있습니다."
+  focus_en: "Building practical capability in web hacking, reverse engineering, and digital forensics."
+  github: "https://github.com/shy0401/"
+  instagram: "https://www.instagram.com/white_shy1/"
+  school_link: "https://csai.jbnu.ac.kr/csai/index.do"
+  profile_image: "/media/profile/personal-profile.jpg"
+  logo_image: "/media/profile/logo-shield.svg"
+  hero_image: "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=1800&q=80"
+  og_image: "/og-cover.svg"
+  seo_keywords_ko:
+    - "전북대 신하윤"
+    - "신하윤"
+    - "전북대"
+    - "전북대 신하윤 자기소개서"
+    - "전북대 신하윤 포트폴리오"
+    - "전북대학교 IT정보공학과"
+    - "사이버수사대 지망"
+  seo_keywords_en:
+    - "Ha-yoon Shin"
+    - "Jeonbuk National University"
+    - "Security Portfolio"
+    - "Cyber Investigation"
+    - "Web Hacking"
+    - "Reversing"
+    - "Digital Forensics"
+
+languages:
+  ko:
+    languageName: "한국어"
+    weight: 1
+    title: "SHY Portfolio"
+    menu:
+      main:
+        - name: "홈"
+          pageRef: "/"
+          weight: 10
+
+        - name: "소개"
+          identifier: "about"
+          pageRef: "/about"
+          weight: 20
+        - name: "프로필"
+          parent: "about"
+          pageRef: "/about/profile"
+          weight: 21
+        - name: "진로 목표"
+          parent: "about"
+          pageRef: "/about/career-goal"
+          weight: 22
+
+        - name: "경력/활동"
+          identifier: "journey"
+          pageRef: "/journey"
+          weight: 30
+        - name: "성장 타임라인"
+          parent: "journey"
+          pageRef: "/journey/timeline"
+          weight: 31
+        - name: "학습 로드맵"
+          parent: "journey"
+          pageRef: "/journey/roadmap"
+          weight: 32
+
+        - name: "핵심 역량"
+          identifier: "skills"
+          pageRef: "/skills"
+          weight: 40
+        - name: "웹해킹"
+          parent: "skills"
+          pageRef: "/skills/web-hacking"
+          weight: 41
+        - name: "리버싱"
+          parent: "skills"
+          pageRef: "/skills/reversing"
+          weight: 42
+        - name: "포렌식"
+          parent: "skills"
+          pageRef: "/skills/forensics"
+          weight: 43
+        - name: "사이버수사 준비"
+          parent: "skills"
+          pageRef: "/skills/cyber-investigation"
+          weight: 44
+
+        - name: "수상/자격"
+          identifier: "awards"
+          pageRef: "/awards"
+          weight: 50
+        - name: "대회 및 수상"
+          parent: "awards"
+          pageRef: "/awards/competitions"
+          weight: 51
+        - name: "자격/어학/증빙"
+          parent: "awards"
+          pageRef: "/awards/certificates"
+          weight: 52
+
+        - name: "프로젝트"
+          identifier: "projects"
+          pageRef: "/projects"
+          weight: 60
+        - name: "웹 보안 프로젝트"
+          parent: "projects"
+          pageRef: "/projects/web-security-lab"
+          weight: 61
+        - name: "포렌식 자동화 프로젝트"
+          parent: "projects"
+          pageRef: "/projects/forensic-pipeline"
+          weight: 62
+        - name: "리버싱 학습 프로젝트"
+          parent: "projects"
+          pageRef: "/projects/reversing-playground"
+          weight: 63
+
+        - name: "갤러리/하이라이트"
+          identifier: "media"
+          pageRef: "/media"
+          weight: 70
+        - name: "활동 사진"
+          parent: "media"
+          pageRef: "/media/activities"
+          weight: 71
+        - name: "포트폴리오 하이라이트"
+          parent: "media"
+          pageRef: "/media/highlights"
+          weight: 72
+
+        - name: "연락처"
+          identifier: "contact"
+          pageRef: "/contact"
+          weight: 80
+        - name: "소셜 링크"
+          parent: "contact"
+          pageRef: "/contact/social-links"
+          weight: 81
+        - name: "자료 다운로드"
+          parent: "contact"
+          pageRef: "/contact/downloads"
+          weight: 82
+
+  en:
+    languageCode: "en-us"
+    languageName: "English"
+    weight: 2
+    title: "SHY Portfolio"
+    menu:
+      main:
+        - name: "Home"
+          pageRef: "/"
+          weight: 10
+
+        - name: "About"
+          identifier: "about"
+          pageRef: "/about"
+          weight: 20
+        - name: "Profile"
+          parent: "about"
+          pageRef: "/about/profile"
+          weight: 21
+        - name: "Career Goal"
+          parent: "about"
+          pageRef: "/about/career-goal"
+          weight: 22
+
+        - name: "Journey"
+          identifier: "journey"
+          pageRef: "/journey"
+          weight: 30
+        - name: "Growth Timeline"
+          parent: "journey"
+          pageRef: "/journey/timeline"
+          weight: 31
+        - name: "Learning Roadmap"
+          parent: "journey"
+          pageRef: "/journey/roadmap"
+          weight: 32
+
+        - name: "Core Skills"
+          identifier: "skills"
+          pageRef: "/skills"
+          weight: 40
+        - name: "Web Hacking"
+          parent: "skills"
+          pageRef: "/skills/web-hacking"
+          weight: 41
+        - name: "Reversing"
+          parent: "skills"
+          pageRef: "/skills/reversing"
+          weight: 42
+        - name: "Forensics"
+          parent: "skills"
+          pageRef: "/skills/forensics"
+          weight: 43
+        - name: "Cyber Investigation Prep"
+          parent: "skills"
+          pageRef: "/skills/cyber-investigation"
+          weight: 44
+
+        - name: "Awards"
+          identifier: "awards"
+          pageRef: "/awards"
+          weight: 50
+        - name: "Competitions"
+          parent: "awards"
+          pageRef: "/awards/competitions"
+          weight: 51
+        - name: "Certificates & Proof"
+          parent: "awards"
+          pageRef: "/awards/certificates"
+          weight: 52
+
+        - name: "Projects"
+          identifier: "projects"
+          pageRef: "/projects"
+          weight: 60
+        - name: "Web Security Project"
+          parent: "projects"
+          pageRef: "/projects/web-security-lab"
+          weight: 61
+        - name: "Forensic Automation Project"
+          parent: "projects"
+          pageRef: "/projects/forensic-pipeline"
+          weight: 62
+        - name: "Reversing Study Project"
+          parent: "projects"
+          pageRef: "/projects/reversing-playground"
+          weight: 63
+
+        - name: "Gallery"
+          identifier: "media"
+          pageRef: "/media"
+          weight: 70
+        - name: "Activity Photos"
+          parent: "media"
+          pageRef: "/media/activities"
+          weight: 71
+        - name: "Portfolio Highlights"
+          parent: "media"
+          pageRef: "/media/highlights"
+          weight: 72
+
+        - name: "Contact"
+          identifier: "contact"
+          pageRef: "/contact"
+          weight: 80
+        - name: "Social Links"
+          parent: "contact"
+          pageRef: "/contact/social-links"
+          weight: 81
+        - name: "Downloads"
+          parent: "contact"
+          pageRef: "/contact/downloads"
+          weight: 82

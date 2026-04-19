@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="panel single">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.image }}
+  {{ $hero := . }}
+  {{ $heroSrc := cond (or (hasPrefix $hero "http://") (hasPrefix $hero "https://")) $hero ($hero | relURL) }}
+  <div class="single-hero-image">
+    <img src="{{ $heroSrc }}" alt="{{ $.Title }}">
+    <span class="single-hero-overlay"></span>
+  </div>
+  {{ end }}
+  {{ with .Params.role }}<p class="single-role">{{ . }}</p>{{ end }}
+  {{ with .Params.tags }}
+  <div class="chip-row" style="margin-bottom:1rem;">
+    {{ range . }}<span class="chip">{{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+  <div class="content">
+    {{ partial "utils/render-content.html" . }}
+  </div>
+</article>
+{{ end }}

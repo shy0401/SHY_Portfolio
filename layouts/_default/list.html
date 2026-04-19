@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="panel section-intro">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.image }}
+  {{ $hero := . }}
+  {{ $heroSrc := cond (or (hasPrefix $hero "http://") (hasPrefix $hero "https://")) $hero ($hero | relURL) }}
+  <div class="section-hero-image">
+    <img src="{{ $heroSrc }}" alt="{{ $.Title }}">
+    <span class="section-hero-overlay"></span>
+  </div>
+  {{ end }}
+  {{ with .Content }}<div class="content">{{ partial "utils/render-content.html" $ }}</div>{{ end }}
+</section>
+
+{{ if .Pages }}
+<section class="content-grid">
+  {{ range .Pages.ByWeight }}
+    {{ partial "custom/content-card.html" . }}
+  {{ end }}
+</section>
+{{ end }}
+{{ end }}

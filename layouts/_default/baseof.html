@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+  {{ $isKo := eq site.Language.Lang "ko" }}
+  {{ $defaultDesc := cond $isKo site.Params.brand_desc_ko site.Params.brand_desc_en }}
+  {{ $pageTitle := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+  {{ $desc := .Description | default $defaultDesc }}
+  {{ $siteUrl := site.Params.site_url | default site.BaseURL }}
+  {{ $defaultKeywords := cond $isKo site.Params.seo_keywords_ko site.Params.seo_keywords_en }}
+  {{ $keywords := delimit $defaultKeywords ", " }}
+  {{ $ogImageRaw := .Params.image | default site.Params.og_image }}
+  {{ $ogImage := cond (or (hasPrefix $ogImageRaw "http://") (hasPrefix $ogImageRaw "https://")) $ogImageRaw ($ogImageRaw | absURL) }}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ $pageTitle }}</title>
+  <meta name="description" content="{{ $desc }}">
+  <meta name="keywords" content="{{ $keywords }}">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0b1a37">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ $pageTitle }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:locale" content="{{ if $isKo }}ko_KR{{ else }}en_US{{ end }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $pageTitle }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ $ogImage }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.Params.profile_name_ko }}",
+    "url": "{{ $siteUrl }}",
+    "description": "{{ $desc }}",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "전북대학교 IT정보공학과",
+      "url": "{{ site.Params.school_link }}"
+    },
+    "sameAs": [
+      "{{ site.Params.github }}",
+      "{{ site.Params.instagram }}"
+    ],
+    "knowsAbout": [
+      "웹해킹",
+      "리버싱",
+      "디지털 포렌식",
+      "사이버수사",
+      "전북대 신하윤",
+      "전북대 신하윤 자기소개서",
+      "전북대 신하윤 포트폴리오"
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+  <link rel="alternate icon" href="{{ "favicon.svg" | relURL }}">
+  <link rel="apple-touch-icon" href="{{ site.Params.profile_image | relURL }}">
+  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  {{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  <link rel="alternate" hreflang="x-default" href="{{ site.Home.Permalink }}">
+  {{ end }}
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <main class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

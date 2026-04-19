@@ -1,0 +1,91 @@
+{{ define "main" }}
+{{ $isKo := eq site.Language.Lang "ko" }}
+{{ $heroTitle := cond $isKo site.Params.profile_name_ko site.Params.profile_name_en }}
+{{ $school := cond $isKo site.Params.school_ko site.Params.school_en }}
+{{ $semester := cond $isKo site.Params.semester_ko site.Params.semester_en }}
+{{ $role := cond $isKo site.Params.role_ko site.Params.role_en }}
+{{ $goal := cond $isKo site.Params.goal_ko site.Params.goal_en }}
+{{ $focus := cond $isKo site.Params.focus_ko site.Params.focus_en }}
+{{ $tagline := cond $isKo site.Params.tagline_ko site.Params.tagline_en }}
+
+<section class="hero hero-shell">
+  <div class="hero-bg">
+    <img src="{{ site.Params.hero_image }}" alt="Hero background">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ if $isKo }}CYBER SECURITY CAREER PORTFOLIO{{ else }}CYBER SECURITY CAREER PORTFOLIO{{ end }}</p>
+      <h1>{{ $heroTitle }}</h1>
+      <p class="hero-main">{{ $role }}</p>
+      <p class="hero-sub">{{ $school }} · {{ $semester }}</p>
+      <p class="hero-focus">{{ $goal }}</p>
+      <p class="hero-focus">{{ $focus }}</p>
+      <div class="hero-tags">
+        <span>{{ if $isKo }}웹해킹{{ else }}Web Hacking{{ end }}</span>
+        <span>{{ if $isKo }}리버싱{{ else }}Reversing{{ end }}</span>
+        <span>{{ if $isKo }}포렌식{{ else }}Forensics{{ end }}</span>
+        <span>{{ if $isKo }}사이버수사{{ else }}Cyber Investigation{{ end }}</span>
+      </div>
+      <div class="cta-row">
+        <a class="btn primary" href="{{ "projects/" | relLangURL }}">{{ if $isKo }}프로젝트 포트폴리오 보기{{ else }}Explore Project Portfolio{{ end }}</a>
+        <a class="btn" href="{{ "skills/" | relLangURL }}">{{ if $isKo }}핵심 역량 보기{{ else }}View Core Skills{{ end }}</a>
+        <a class="btn" href="{{ "awards/" | relLangURL }}">{{ if $isKo }}증빙자료 다운로드{{ else }}Download Proof Files{{ end }}</a>
+      </div>
+      <div class="social-row">
+        <a href="{{ site.Params.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="{{ site.Params.instagram }}" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="{{ site.Params.school_link }}" target="_blank" rel="noopener" aria-label="JBNU"><i class="fas fa-school"></i></a>
+        <a href="https://owasp.org" target="_blank" rel="noopener" aria-label="OWASP"><i class="fab fa-python"></i></a>
+        <a href="https://www.sleuthkit.org/" target="_blank" rel="noopener" aria-label="Forensics"><i class="fab fa-linux"></i></a>
+        <a href="https://developer.mozilla.org/" target="_blank" rel="noopener" aria-label="Web Docs"><i class="fab fa-js"></i></a>
+        <a href="https://www.rust-lang.org/" target="_blank" rel="noopener" aria-label="Rust"><i class="fab fa-rust"></i></a>
+        <a href="https://www.docker.com/" target="_blank" rel="noopener" aria-label="Docker"><i class="fab fa-docker"></i></a>
+      </div>
+    </div>
+    <aside class="profile-panel">
+      <img src="{{ site.Params.profile_image | relURL }}" alt="Profile photo">
+      <h3>{{ $heroTitle }}</h3>
+      <p>{{ $tagline }}</p>
+      <a class="mini-link" href="{{ "contact/social-links/" | relLangURL }}">{{ if $isKo }}연락 및 외부 링크 보기{{ else }}Open Contact & Links{{ end }}</a>
+    </aside>
+  </div>
+</section>
+
+<section class="section-headline">
+  <h2>{{ if $isKo }}핵심 역량 하이라이트{{ else }}Core Skill Highlights{{ end }}</h2>
+  <p>{{ if $isKo }}각 카드를 클릭하면 상세 학습 페이지로 이동합니다.{{ else }}Click each card to open the corresponding detailed page.{{ end }}</p>
+</section>
+
+{{ $cards := slice
+  (dict "kicker_ko" "소개" "kicker_en" "About" "title_ko" "학업 프로필" "title_en" "Academic Profile" "desc_ko" "전북대학교 IT정보공학과 4학년 1학기 학업 현황 정리" "desc_en" "Current academic profile at JBNU IT Information Engineering." "tags_ko" "학업,전공,포트폴리오" "tags_en" "Academics,Major,Portfolio" "page_ko" "about/profile.md" "page_en" "about/profile.en.md")
+  (dict "kicker_ko" "진로" "kicker_en" "Career" "title_ko" "진로 목표" "title_en" "Career Goal" "desc_ko" "경찰간부후보생 준비와 사이버수사대 지망 계획" "desc_en" "Police officer candidate exam preparation and cyber investigation goal." "tags_ko" "경찰간부후보생,사이버수사,목표" "tags_en" "Career,Cyber Investigation,Goal" "page_ko" "about/career-goal.md" "page_en" "about/career-goal.en.md")
+  (dict "kicker_ko" "핵심 역량" "kicker_en" "Core Skills" "title_ko" "웹해킹 학습" "title_en" "Web Hacking" "desc_ko" "취약점 재현과 대응 우선순위 분석 학습 기록" "desc_en" "Learning logs on vulnerability reproduction and remediation priorities." "tags_ko" "OWASP,취약점,분석" "tags_en" "OWASP,Vulnerability,Analysis" "page_ko" "skills/web-hacking.md" "page_en" "skills/web-hacking.en.md")
+  (dict "kicker_ko" "핵심 역량" "kicker_en" "Core Skills" "title_ko" "리버싱 학습" "title_en" "Reversing" "desc_ko" "정적/동적 분석 루틴과 바이너리 해석 역량 강화" "desc_en" "Static/dynamic analysis routines and binary interpretation practice." "tags_ko" "리버싱,정적분석,동적분석" "tags_en" "Reversing,Static,Dynamic" "page_ko" "skills/reversing.md" "page_en" "skills/reversing.en.md")
+  (dict "kicker_ko" "핵심 역량" "kicker_en" "Core Skills" "title_ko" "포렌식 학습" "title_en" "Forensics" "desc_ko" "증거 수집, 무결성 검증, 보고 체계 학습" "desc_en" "Evidence collection, integrity verification, and reporting workflow." "tags_ko" "포렌식,증거,무결성" "tags_en" "Forensics,Evidence,Integrity" "page_ko" "skills/forensics.md" "page_en" "skills/forensics.en.md")
+  (dict "kicker_ko" "핵심 역량" "kicker_en" "Core Skills" "title_ko" "사이버수사 준비" "title_en" "Cyber Investigation Prep" "desc_ko" "기술 분석과 공공 보안 진로 준비를 연결한 학습 계획" "desc_en" "Learning plan connecting technical analysis with public cyber career preparation." "tags_ko" "사이버수사,공공보안,준비" "tags_en" "Cyber Investigation,Public Security,Preparation" "page_ko" "skills/cyber-investigation.md" "page_en" "skills/cyber-investigation.en.md")
+  (dict "kicker_ko" "수상" "kicker_en" "Awards" "title_ko" "대회 및 수상" "title_en" "Competitions & Awards" "desc_ko" "BCG/KISA 해킹대회 성과와 활동 예정 정리" "desc_en" "Competition achievements and upcoming activity summary." "tags_ko" "BCG,KISA,핵테온" "tags_en" "BCG,KISA,HackTheon" "page_ko" "awards/competitions.md" "page_en" "awards/competitions.en.md")
+  (dict "kicker_ko" "프로젝트" "kicker_en" "Projects" "title_ko" "보안 프로젝트" "title_en" "Security Projects" "desc_ko" "웹 보안 분석, 포렌식 자동화, 리버싱 프로젝트 구성" "desc_en" "Web security, forensic automation, and reversing project records." "tags_ko" "보안,프로젝트,분석" "tags_en" "Security,Projects,Analysis" "page_ko" "projects/_index.md" "page_en" "projects/_index.en.md")
+  (dict "kicker_ko" "연락처" "kicker_en" "Contact" "title_ko" "소셜 링크 및 자료" "title_en" "Social Links & Downloads" "desc_ko" "GitHub, Instagram, 학교 링크와 증빙자료 다운로드" "desc_en" "GitHub, Instagram, school link, and proof-file downloads." "tags_ko" "GitHub,Instagram,다운로드" "tags_en" "GitHub,Instagram,Downloads" "page_ko" "contact/social-links.md" "page_en" "contact/social-links.en.md")
+}}
+
+<section class="home-card-grid">
+{{ range $cards }}
+    {{ $targetPage := site.GetPage (cond $isKo .page_ko .page_en) }}
+    {{ $link := "" }}
+    {{ with $targetPage }}{{ $link = .RelPermalink }}{{ end }}
+    {{ partial "custom/feature-card.html" (dict
+      "kicker" (cond $isKo .kicker_ko .kicker_en)
+      "title" (cond $isKo .title_ko .title_en)
+      "desc" (cond $isKo .desc_ko .desc_en)
+      "tags" (cond $isKo .tags_ko .tags_en)
+      "link" $link
+      "link_label" (cond $isKo "상세 페이지 이동" "Open detail page")
+    ) }}
+  {{ end }}
+</section>
+
+<section class="panel prose-panel">
+  {{ partial "utils/render-content.html" . }}
+</section>
+{{ end }}
