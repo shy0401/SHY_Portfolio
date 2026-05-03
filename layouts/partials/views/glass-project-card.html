@@ -1,0 +1,11 @@
+{{ $isKo := eq site.Language.Lang "ko" }}
+<article class="glass-project-card">
+  <span class="feature-kicker">{{ if $isKo }}PROJECTS{{ else }}PROJECTS{{ end }}</span>
+  <h3>{{ if $isKo }}보안 중심 프로젝트 3개{{ else }}Three Security-Focused Projects{{ end }}</h3>
+  <p>{{ if $isKo }}웹 보안 분석, 포렌식 자동화, 리버싱 학습 프로젝트를 독립 상세 페이지로 정리했습니다.{{ else }}Web security analysis, forensic automation, and reversing study are organized as dedicated project pages.{{ end }}</p>
+  <div class="glass-project-links">
+    <a href="{{ "projects/web-security-lab/" | relLangURL }}">{{ if $isKo }}웹 보안{{ else }}Web Security{{ end }}</a>
+    <a href="{{ "projects/forensic-pipeline/" | relLangURL }}">{{ if $isKo }}포렌식{{ else }}Forensics{{ end }}</a>
+    <a href="{{ "projects/reversing-playground/" | relLangURL }}">{{ if $isKo }}리버싱{{ else }}Reversing{{ end }}</a>
+  </div>
+</article>

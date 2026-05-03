@@ -52,6 +52,11 @@
   </div>
 </section>
 
+<section class="glass-summary-grid" aria-label="{{ if $isKo }}포트폴리오 요약{{ else }}Portfolio summary{{ end }}">
+  {{ partial "views/glass-profile-card.html" . }}
+  {{ partial "views/glass-project-card.html" . }}
+</section>
+
 <section class="section-headline">
   <h2>{{ if $isKo }}핵심 역량 하이라이트{{ else }}Core Skill Highlights{{ end }}</h2>
   <p>{{ if $isKo }}각 카드를 클릭하면 상세 학습 페이지로 이동합니다.{{ else }}Click each card to open the corresponding detailed page.{{ end }}</p>

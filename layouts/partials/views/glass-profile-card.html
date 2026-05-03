@@ -1,0 +1,14 @@
+{{ $isKo := eq site.Language.Lang "ko" }}
+<article class="glass-profile-card">
+  <img src="{{ site.Params.profile_image | relURL }}" alt="{{ if $isKo }}신하윤 프로필 사진{{ else }}Ha-yoon Shin profile photo{{ end }}">
+  <div>
+    <span class="feature-kicker">{{ if $isKo }}PROFILE{{ else }}PROFILE{{ end }}</span>
+    <h3>{{ cond $isKo site.Params.profile_name_ko site.Params.profile_name_en }}</h3>
+    <p>{{ cond $isKo site.Params.school_ko site.Params.school_en }} · {{ cond $isKo site.Params.semester_ko site.Params.semester_en }}</p>
+    <div class="chip-row">
+      <span class="chip">{{ if $isKo }}사이버수사대 지망{{ else }}Cyber Investigation{{ end }}</span>
+      <span class="chip">{{ if $isKo }}경찰간부후보생 준비{{ else }}Police Candidate Prep{{ end }}</span>
+      <span class="chip">{{ if $isKo }}보안/개발{{ else }}Security & Development{{ end }}</span>
+    </div>
+  </div>
+</article>

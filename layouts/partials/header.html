@@ -33,6 +33,9 @@
 
     <div class="header-icons">
       <a href="{{ "search/" | relLangURL }}" aria-label="{{ if $isKo }}검색{{ else }}Search{{ end }}"><i class="fas fa-search"></i></a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="{{ if $isKo }}라이트/다크 모드 전환{{ else }}Toggle light and dark mode{{ end }}">
+        <i class="fas fa-circle-half-stroke" aria-hidden="true"></i>
+      </button>
       <span aria-hidden="true"><i class="fas fa-globe"></i></span>
       {{ $translations := .AllTranslations }}
       {{ if not $translations }}{{ $translations = site.Home.AllTranslations }}{{ end }}
