@@ -3,14 +3,16 @@ title: Activity Photos
 date: 2026-06-16
 draft: false
 weight: 10
-description: "Profile, certificates, cybersecurity awards, and AI contest activity images"
-image: "/media/awards/honam-security-hackathon-bronze.jpg"
+description: "Profile, certificates, cybersecurity awards, and AI.SW contest activity images"
+image: "/media/awards/jbnu-ai-sw-contest-2026.jpg"
+image_fit: contain
 ---
 
 ## Activity Image Cards
 
 {{< portfolio_slider >}}
 /media/profile/personal-profile.jpg|Personal Profile|Main profile image
+/media/awards/jbnu-ai-sw-contest-2026.jpg|2026 JBNU AI.SW Contest|On-site record from the AI/SW presentation and award ceremony
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|Honam Mini Challenge Grand Prize|President of Korea Internet & Security Agency award image
 /media/awards/honam-security-hackathon-bronze.jpg|Honam Information Protection Hackathon Bronze Prize|Honam Information Protection Support Center Director Award image
 /media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition 2nd Place|First-year BCG hacking competition result

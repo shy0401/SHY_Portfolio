@@ -96,6 +96,8 @@ params:
     - "포렌식 학습"
     - "BCG 해킹대회"
     - "2021 BCG 해킹대회 2등"
+    - "2026 JBNU AI.SW 경진대회"
+    - "전북대학교 AI SW 경진대회"
   seo_keywords_en:
     - "Ha-yoon Shin"
     - "Jeonbuk National University"
@@ -112,6 +114,8 @@ params:
     - "2021 BCG Hacking Competition 2nd Place"
     - "Korean Police Patrol Officer Exam"
     - "Korean History Proficiency Test"
+    - "2026 JBNU AI.SW Contest"
+    - "Jeonbuk National University AI SW Contest"
 
 languages:
   ko:
@@ -191,6 +195,10 @@ languages:
           parent: "awards"
           pageRef: "/awards/ai-image-contest"
           weight: 54
+        - name: "2026 JBNU AI.SW 경진대회"
+          parent: "awards"
+          pageRef: "/awards/jbnu-ai-sw-contest-2026"
+          weight: 55
 
         - name: "프로젝트"
           identifier: "projects"
@@ -308,6 +316,10 @@ languages:
           parent: "awards"
           pageRef: "/awards/ai-image-contest"
           weight: 54
+        - name: "2026 JBNU AI.SW Contest"
+          parent: "awards"
+          pageRef: "/awards/jbnu-ai-sw-contest-2026"
+          weight: 55
 
         - name: "Projects"
           identifier: "projects"

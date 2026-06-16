@@ -3,12 +3,13 @@ title: Competitions & Awards
 date: 2026-06-16
 draft: false
 weight: 10
-description: "Cybersecurity competition achievements and proof records"
+description: "Cybersecurity competition achievements and AI.SW contest activity records"
 image: "/media/awards/honam-security-hackathon-bronze.jpg"
 tags:
   - Cybersecurity
   - Hackathon
   - KISA
+  - JBNU
   - Awards
 ---
 
@@ -16,23 +17,27 @@ tags:
 
 Security competitions and field-style challenges are important checkpoints for my learning. I use them not only to solve problems, but also to practice hypothesis building, evidence organization, teamwork, and documentation that can be reviewed later.
 
-## Key Achievements
+The AI.SW contest record is not categorized as a cybersecurity award, but it supports the broader portfolio by showing development experience, AI/SW perspective, and participation in an academic presentation setting.
 
-| Category | Result |
+## Key Records
+
+| Category | Result or Record |
 | --- | --- |
 | 2025 Honam Information Protection Special Course Mini Challenge | Grand Prize, President of Korea Internet & Security Agency |
 | 2025 Honam Information Protection Hackathon | Bronze Prize, Honam Information Protection Support Center Director Award |
+| 2026 JBNU AI.SW Contest | On-site record from the JBNU AI/SW contest |
 | 2021 BCG Hacking Competition | Silver Prize, 2nd Place |
 | KISA Hacking Competition | 1st Place |
 | KISA Hacking Competition | 3rd Place |
 | 2025 AI-based Image Generation Contest | 3rd Place |
 | Gyeryongdae Service Support Group Reading Contest | Excellence Award |
 
-## Proof Images
+## Image Records
 
 {{< portfolio_slider >}}
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|2025 Honam Mini Challenge Grand Prize|President of Korea Internet & Security Agency award record
 /media/awards/honam-security-hackathon-bronze.jpg|2025 Honam Information Protection Hackathon Bronze Prize|Honam Information Protection Support Center Director Award record
+/media/awards/jbnu-ai-sw-contest-2026.jpg|2026 JBNU AI.SW Contest|On-site record from the AI/SW presentation and award ceremony
 /media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition Silver Prize|First-year BCG hacking competition result
 /media/awards/bcg-hacking-competition-writeup-1.jpg|BCG Writeup Image 1|Reversing, forensics, XSS, and proxy challenge traces
 /media/awards/bcg-hacking-competition-writeup-2.jpg|BCG Writeup Image 2|Path Traversal, network, and forensics challenge records
@@ -54,9 +59,10 @@ Security competitions and field-style challenges are important checkpoints for m
 - Separate web hacking, reversing, and forensics challenge logs and link them with project pages
 - Continue practicing investigation-style explanation for technical findings
 
-## Related Link
+## Related Links
 
 - [Certificates & Proof Files](/en/awards/certificates/)
 - [2021 BCG Hacking Competition Record](/en/awards/bcg-hacking-competition/)
 - [AI-based Image Generation Contest Record](/en/awards/ai-image-contest/)
+- [2026 JBNU AI.SW Contest](/en/awards/jbnu-ai-sw-contest-2026/)
 - [Learning Roadmap](/en/journey/roadmap/)
