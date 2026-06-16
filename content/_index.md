@@ -1,8 +1,8 @@
 ---
 title: 홈
-date: 2026-04-19
+date: 2026-06-16
 draft: false
-description: "신하윤의 보안/개발 포트폴리오 랜딩 페이지"
+description: "전북대학교 IT정보공학과 신하윤의 보안/개발 포트폴리오 랜딩 페이지"
 keywords:
   - "전북대 신하윤"
   - "신하윤"
@@ -20,12 +20,19 @@ keywords:
   - "자소서"
   - "코딩"
   - "코덱스"
+  - "호남지역 정보보호 해커톤"
+  - "호남권 정보보호 특별과정"
+  - "KISA"
+  - "사이버수사대"
+  - "BCG 해킹대회"
 ---
 
 ## 보안·개발 포트폴리오 요약
 
 전북대학교 IT정보공학과 4학년 1학기 재학중이며, 경찰간부후보생 시험을 준비하면서  
-사이버수사대 지망 진로에 맞춰 웹해킹·리버싱·포렌식 학습을 이어가고 있습니다.
+사이버수사대 지망 진로에 맞춰 웹해킹·리버싱·포렌식·보안관제 학습을 로드맵 기반으로 이어가고 있습니다.
+
+정보보호 대회 수상과 사이버관제병 경력 기록, 자격/어학 자료, 프로젝트 산출물을 한곳에 모아 “어떤 분야를 어떤 순서로 공부하고 있는지”가 보이도록 구성했습니다.
 
 ## 빠른 이동
 
@@ -37,14 +44,17 @@ keywords:
 
 ## 검색 키워드
 
-신하윤, 전북대학교, 전북대, 컴퓨터인공지능학부, IT정보공학과, 컴퓨터공학과, 자기소개사, 자기소개서, 보안, 개발, 포트폴리오, 자소서, 코딩, 코덱스, 전북대 신하윤, 전북대 신하윤 포트폴리오
+신하윤, 전북대학교, 전북대, 컴퓨터인공지능학부, IT정보공학과, 컴퓨터공학과, 자기소개사, 자기소개서, 보안, 개발, 포트폴리오, 자소서, 코딩, 코덱스, 전북대 신하윤, 전북대 신하윤 포트폴리오, 호남지역 정보보호 해커톤, 호남권 정보보호 특별과정, KISA, 사이버수사대
 
 ## 하이라이트
 
 {{< portfolio_slider >}}
 /media/profile/personal-profile.jpg|대표 프로필|개인 프로필 사진
-/media/awards/ai-contest-certificate.jpg|AI 기반 이미지 생성 콘테스트 증서|수상 증빙
-/media/awards/ai-image-3rd.png|AI 이미지 생성대회 3등|대회 성과
+/media/awards/honam-mini-challenge-kisa-grand-prize.jpg|호남권 정보보호 특별과정 미니챌린지 대상|한국인터넷진흥원장상 수상
+/media/awards/honam-security-hackathon-bronze.jpg|호남지역 정보보호 해커톤 동상|호남정보보호지원센터장상 수상
+/media/awards/bcg-hacking-competition-result.png|2021 BCG 해킹대회 2등|1학년 때 참가한 보안 대회 성과
+/media/awards/ai-contest-certificate.jpg|AI 기반 이미지 생성 콘테스트 통합 기록|AI 이미지 생성대회 3등과 동일 대회
+/media/awards/gyeryong-reading-contest-excellence.png|장병 독후감 공모전 우수상|계룡대근무지원단 수상
 /media/certificates/craftsman-it.png|정보처리기능사|자격 증빙
 /media/certificates/toeic-650.jpg|TOEIC 650|어학 성적
 https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1400&q=80|Cyber Workspace|Unsplash

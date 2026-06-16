@@ -92,18 +92,19 @@ a {
 }
 
 .brand-mark img {
-  width: 132px;
+  width: 166px;
   height: auto;
   display: block;
-  border-radius: 10px;
+  border-radius: 12px;
   border: 1px solid color-mix(in srgb, var(--primary) 35%, transparent);
   background: color-mix(in srgb, var(--panel-solid) 85%, transparent);
-  padding: 0.18rem;
+  padding: 0.14rem;
 }
 
 .brand-text {
   font-size: 0.98rem;
   font-weight: 700;
+  line-height: 1.15;
 }
 
 .main-nav {
@@ -814,7 +815,7 @@ a {
   }
 
   .brand-mark img {
-    width: 112px;
+    width: 138px;
   }
 
   .hero-shell,

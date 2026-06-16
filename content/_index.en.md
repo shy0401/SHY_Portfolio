@@ -1,8 +1,8 @@
 ---
 title: Home
-date: 2026-04-19
+date: 2026-06-16
 draft: false
-description: "Landing page of Ha-yoon Shin's security and developer portfolio"
+description: "Landing page for Ha-yoon Shin's security and developer portfolio at Jeonbuk National University"
 keywords:
   - "전북대 신하윤"
   - "신하윤"
@@ -20,12 +20,18 @@ keywords:
   - "자소서"
   - "코딩"
   - "코덱스"
+  - "KISA"
+  - "Cyber Investigation"
+  - "Honam Information Protection"
+  - "BCG Hacking Competition"
 ---
 
 ## Security & Developer Portfolio Summary
 
 I am a 4th-year student in IT Information Engineering at Jeonbuk National University.  
-While preparing for the Police Officer Candidate Exam, I continue to build web hacking, reversing, and forensics skills for a cyber investigation career path.
+While preparing for the Police Officer Candidate Exam, I continue to build web hacking, reversing, digital forensics, and security monitoring skills through a structured roadmap.
+
+This portfolio connects cybersecurity awards, cyber monitoring career records, certificates, language proof, and project outputs so visitors can understand what I study, in what order, and how each record supports my career direction.
 
 ## Quick Navigation
 
@@ -39,8 +45,11 @@ While preparing for the Police Officer Candidate Exam, I continue to build web h
 
 {{< portfolio_slider >}}
 /media/profile/personal-profile.jpg|Main Profile|Personal profile image
-/media/awards/ai-contest-certificate.jpg|AI Image Generation Contest Certificate|Award proof
-/media/awards/ai-image-3rd.png|AI Image Contest - 3rd Place|Competition result
+/media/awards/honam-mini-challenge-kisa-grand-prize.jpg|Honam Mini Challenge Grand Prize|President of Korea Internet & Security Agency award
+/media/awards/honam-security-hackathon-bronze.jpg|Honam Information Protection Hackathon Bronze Prize|Honam Information Protection Support Center Director Award
+/media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition 2nd Place|First-year security competition achievement
+/media/awards/ai-contest-certificate.jpg|Integrated AI-based Image Generation Contest Record|Same competition as the AI Image Contest 3rd-place result
+/media/awards/gyeryong-reading-contest-excellence.png|Reading Contest Excellence Award|Gyeryongdae Service Support Group award
 /media/certificates/craftsman-it.png|Craftsman Information Processing|Certificate proof
 /media/certificates/toeic-650.jpg|TOEIC 650|Language score report
 https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1400&q=80|Cyber Workspace|Unsplash

@@ -86,7 +86,19 @@
   </url>
   <url>
     <loc>https://shy0401.github.io/SHY_Portfolio/awards/certificates/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shy0401.github.io/SHY_Portfolio/awards/bcg-hacking-competition/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shy0401.github.io/SHY_Portfolio/awards/ai-image-contest/</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -242,7 +254,19 @@
   </url>
   <url>
     <loc>https://shy0401.github.io/SHY_Portfolio/en/awards/certificates/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://shy0401.github.io/SHY_Portfolio/en/awards/bcg-hacking-competition/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://shy0401.github.io/SHY_Portfolio/en/awards/ai-image-contest/</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

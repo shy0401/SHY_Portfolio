@@ -81,6 +81,16 @@ params:
     - "코덱스"
     - "전북대학교 IT정보공학과"
     - "사이버수사대 지망"
+    - "호남지역 정보보호 해커톤"
+    - "호남권 정보보호 특별과정"
+    - "한국인터넷진흥원장상"
+    - "호남정보보호지원센터장상"
+    - "사이버관제병"
+    - "웹해킹 학습"
+    - "리버싱 학습"
+    - "포렌식 학습"
+    - "BCG 해킹대회"
+    - "2021 BCG 해킹대회 2등"
   seo_keywords_en:
     - "Ha-yoon Shin"
     - "Jeonbuk National University"
@@ -89,6 +99,12 @@ params:
     - "Web Hacking"
     - "Reversing"
     - "Digital Forensics"
+    - "KISA"
+    - "Honam Information Protection Hackathon"
+    - "Security Monitoring"
+    - "Cyber Investigation Portfolio"
+    - "BCG Hacking Competition"
+    - "2021 BCG Hacking Competition 2nd Place"
 
 languages:
   ko:
@@ -131,15 +147,15 @@ languages:
           identifier: "skills"
           pageRef: "/skills"
           weight: 40
-        - name: "웹해킹"
+        - name: "웹해킹 학습"
           parent: "skills"
           pageRef: "/skills/web-hacking"
           weight: 41
-        - name: "리버싱"
+        - name: "리버싱 학습"
           parent: "skills"
           pageRef: "/skills/reversing"
           weight: 42
-        - name: "포렌식"
+        - name: "포렌식 학습"
           parent: "skills"
           pageRef: "/skills/forensics"
           weight: 43
@@ -160,6 +176,14 @@ languages:
           parent: "awards"
           pageRef: "/awards/certificates"
           weight: 52
+        - name: "BCG 해킹대회"
+          parent: "awards"
+          pageRef: "/awards/bcg-hacking-competition"
+          weight: 53
+        - name: "AI 콘테스트 기록"
+          parent: "awards"
+          pageRef: "/awards/ai-image-contest"
+          weight: 54
 
         - name: "프로젝트"
           identifier: "projects"
@@ -245,15 +269,15 @@ languages:
           identifier: "skills"
           pageRef: "/skills"
           weight: 40
-        - name: "Web Hacking"
+        - name: "Web Hacking Study"
           parent: "skills"
           pageRef: "/skills/web-hacking"
           weight: 41
-        - name: "Reversing"
+        - name: "Reversing Study"
           parent: "skills"
           pageRef: "/skills/reversing"
           weight: 42
-        - name: "Forensics"
+        - name: "Forensics Study"
           parent: "skills"
           pageRef: "/skills/forensics"
           weight: 43
@@ -274,6 +298,14 @@ languages:
           parent: "awards"
           pageRef: "/awards/certificates"
           weight: 52
+        - name: "BCG Hacking Competition"
+          parent: "awards"
+          pageRef: "/awards/bcg-hacking-competition"
+          weight: 53
+        - name: "AI Contest Record"
+          parent: "awards"
+          pageRef: "/awards/ai-image-contest"
+          weight: 54
 
         - name: "Projects"
           identifier: "projects"
