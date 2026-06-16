@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 30
 role: "정적·동적 분석 루틴 학습 · 분석 노트 표준화"
-image: "/media/awards/bcg-hacking-competition-writeup-1.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg"
 tags:
   - Reversing
   - Binary Analysis
@@ -16,14 +16,14 @@ tags:
 
 실습용 바이너리와 대회형 리버싱 문제를 대상으로 정적·동적 분석 루틴을 반복 학습하고, 분석 근거를 재사용 가능한 형식으로 정리하는 프로젝트입니다. 목표는 “정답 문자열 찾기”가 아니라 실행 파일의 입력 처리, 분기, 메모리 변화, 성공 조건을 근거 중심으로 설명하는 것입니다.
 
-BCG 해킹대회 `Reversing_1 - Buffer_Overflow` 풀이 기록을 기반으로 입력 길이, 성공 문자열, 파일 구조, 실행 결과를 함께 분석하는 방식으로 구성했습니다.
+Ghidra 기반 정적 분석 화면을 참고해 입력 길이, 성공 문자열, 파일 구조, 실행 결과를 함께 분석하는 방식으로 구성했습니다.
 
-## 실제 활동 이미지
+## 도구 기반 참고 이미지
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-1.jpg|Reversing_1 - Buffer_Overflow 풀이 기록|입력값과 실행 결과 문자열을 비교하며 Buffer Overflow 단서를 확인한 실제 활동 이미지
-/media/awards/bcg-hacking-competition-writeup-2.jpg|리버싱/포렌식 풀이 화면|리버싱 문제와 파일 구조 분석을 함께 정리한 대회 풀이 화면
-/media/awards/bcg-hacking-competition-result.png|2021 BCG 해킹대회 결과|1학년 때 참가해 은상, 포인트 석차 상위 2등을 기록한 결과
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분석 화면|디컴파일 결과, 함수 흐름, 문자열 단서를 정리하는 리버싱 참고 이미지
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 파일 증거 탐색 화면|실행 파일 분석 후 남는 흔적을 포렌식 흐름과 연결하는 참고 이미지
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 통신 흔적 확인 화면|분석 대상 프로그램의 네트워크 행위를 함께 검토하는 도구 화면
 {{< /portfolio_slider >}}
 
 ## 수행 내용

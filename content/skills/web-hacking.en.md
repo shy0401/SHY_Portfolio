@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 10
 description: "Roadmap for web vulnerability reproduction, impact assessment, and remediation priority"
-image: "/media/awards/bcg-hacking-competition-writeup-2.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png"
 tags:
   - OWASP
   - Web Security
@@ -16,7 +16,7 @@ tags:
 
 My web hacking study does not stop at finding a vulnerability. I focus on explaining when it is reproducible, how it affects the service, and what remediation should be prioritized. The main reference frame is OWASP Top 10, HTTP request/response structure, auth/session flow, input validation, and path-handling issues.
 
-In the 2021 BCG Hacking Competition, which I joined during my first year, I solved web-related challenges such as XSS, Path Traversal, proxy/request manipulation, and file-path analysis. I now reorganize those early records into the workflow `observation → hypothesis → reproduction → impact → response`.
+For web hacking study images, I avoid personal blog captures or screenshots that expose usernames. Instead, I use publicly available tool screens such as OWASP ZAP and Wireshark. I organize XSS, Path Traversal, proxy/request manipulation, and file-path analysis into the workflow `observation → hypothesis → reproduction → impact → response`.
 
 ## Learning Roadmap
 
@@ -30,12 +30,12 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 | Stage 6 | Proxy/request manipulation | Compare server behavior by changing Referer, Cookie, Query String, and Body values |
 | Stage 7 | Reporting | Reproduction condition, impact, remediation, and priority |
 
-## Real Activity Images
+## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-2.jpg|BCG Web Vulnerability Writeup Screen|Record of checking developer tools and request flow while solving Practice XSS, Path Traversal, and Network challenges
-/media/awards/bcg-hacking-competition-writeup-1.jpg|BCG Challenge Writeup Notes|Activity image covering XSS, proxy request manipulation, and file-path access challenges
-/media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition Result|First-year competition result: silver prize and 2nd place by points
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen|Representative tool screen for spidering, request/response inspection, and vulnerability scanning
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Packet Analysis Screen|Reference image for checking HTTP requests, responses, sessions, and packet-level flow
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Exploration Screen|Reference screen for connecting post-attack files and logs with forensic investigation
 {{< /portfolio_slider >}}
 
 ## Web Hacking Topics Connected From Real Activities
@@ -72,7 +72,7 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 - Reflected analysis flow in my web security project page
 - Strengthened the ability to classify challenge types through KISA and security competition experience
 - Practiced explaining issues from service-risk and remediation-priority perspectives
-- Connected BCG competition activity images to XSS, Path Traversal, and proxy request manipulation learning records
+- Connected public tool screens such as OWASP ZAP and Wireshark to XSS, Path Traversal, and proxy request manipulation learning records
 - Practiced rewriting web vulnerability findings in an investigation-report style alongside police exam preparation
 
 ## Next Plan
@@ -81,7 +81,13 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 - Add articles with `attack reproduction + remediation code + checklist`
 - Expand the web security project so readers can inspect analysis evidence from portfolio cards
 - Add timeline-based reconstruction of web logs from a cyber investigation perspective
-- Continue adding problem-type analysis notes based on actual activity images like the BCG writeups
+- Continue adding analysis notes that separate tool screenshots, practice records, and reasoning
+
+## Image Sources
+
+- [OWASP ZAP image](https://commons.wikimedia.org/wiki/File:OWASP-ZAP.png)
+- [Wireshark 3.6 screenshot](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
+- [Autopsy official screenshots](https://www.sleuthkit.org/autopsy/)
 
 ## Related Link
 

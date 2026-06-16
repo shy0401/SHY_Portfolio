@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 30
 role: "Static/Dynamic Analysis Practice · Reusable Documentation Workflow"
-image: "/media/awards/bcg-hacking-competition-writeup-1.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg"
 tags:
   - Reversing
   - Binary Analysis
@@ -16,14 +16,14 @@ tags:
 
 This project focuses on practicing static and dynamic binary analysis on training binaries and competition-style reversing challenges while building reusable, evidence-oriented documentation habits. The goal is not just finding the answer string, but explaining input handling, branching, memory changes, and success conditions with evidence.
 
-The structure is based on the BCG `Reversing_1 - Buffer_Overflow` writeup record, where I analyzed input length, success strings, file structure, and execution output together.
+The structure is based on Ghidra-style static analysis where input length, success strings, file structure, and execution output are interpreted together.
 
-## Real Activity Images
+## Tool-Based Reference Images
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-1.jpg|Reversing_1 - Buffer_Overflow Writeup|Actual activity image showing input/output comparison and Buffer Overflow clues
-/media/awards/bcg-hacking-competition-writeup-2.jpg|Reversing/Forensics Writeup Screen|Competition writeup screen connecting reversing and file-structure analysis
-/media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition Result|First-year competition result: silver prize and 2nd place by points
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Reference image for organizing decompiled code, function flow, and string clues
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy File Evidence Screen|Reference image for connecting executable analysis with forensic artifacts
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Communication Trace Screen|Tool screen for reviewing network behavior from analyzed programs
 {{< /portfolio_slider >}}
 
 ## Responsibilities

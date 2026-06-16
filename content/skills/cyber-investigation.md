@@ -25,7 +25,7 @@ tags:
 /media/cyber-investigation/cyber-investigation-roadmap.svg|사이버수사대 지망 준비 로드맵|응시 조건, 필기, 체력, 면접, 사이버수사 역량을 단계별로 정리
 /media/cyber-investigation/evidence-report-flow.svg|사이버수사형 분석 보고 흐름|증거 수집부터 무결성, 분석, 타임라인, 판단, 보고까지 연결
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|KISA 미니챌린지 대상|정보보호 문제 해결 경험을 실전형 사이버 대응 역량으로 연결
-/media/awards/bcg-hacking-competition-writeup-2.jpg|BCG 해킹대회 풀이 기록|웹해킹·포렌식·네트워크 문제 풀이를 사건 흐름 정리 훈련으로 연결
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 분석 화면|웹해킹·포렌식·네트워크 흔적을 사건 흐름 정리 훈련으로 연결
 {{< /portfolio_slider >}}
 
 ## 준비 로드맵
@@ -56,7 +56,7 @@ tags:
 
 | 요구 역량 | 내 준비 내용 | 실제 근거 |
 | --- | --- | --- |
-| 사건 흐름 이해 | 공격 벡터, 취약점, 로그, 파일 흔적을 하나의 시간순 흐름으로 정리 | BCG 해킹대회 풀이 이미지, 웹해킹/포렌식 학습 기록 |
+| 사건 흐름 이해 | 공격 벡터, 취약점, 로그, 파일 흔적을 하나의 시간순 흐름으로 정리 | 웹해킹/포렌식 도구 화면과 학습 기록 |
 | 증거 보존 관점 | 원본/사본 구분, 해시, 파일 시그니처, 메타데이터 확인 | 포렌식 학습 페이지와 포렌식 자동화 프로젝트 |
 | 기술 분석력 | 웹 취약점, Buffer Overflow, Path Traversal, XSS, 파일 구조 분석 | 웹해킹·리버싱·포렌식 상세 페이지 |
 | 보고서 작성력 | 기술 근거와 판단 근거를 분리해 설명 | 독후감 공모전 우수상, 포트폴리오 상세 문서 |

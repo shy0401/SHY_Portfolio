@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 20
 role: "증거 정리 자동화 · 무결성 검증 · 보고 템플릿 설계"
-image: "/media/awards/bcg-hacking-competition-writeup-1.jpg"
+image: "https://www.sleuthkit.org/autopsy/images/v3/overview.png"
 tags:
   - Forensics
   - Automation
@@ -16,13 +16,13 @@ tags:
 
 반복적인 포렌식 기초 작업을 자동화해 분석 시간을 줄이고, 증거 정리 형식을 표준화하기 위한 프로젝트입니다. 파일을 수집한 뒤 원본과 분석 사본을 구분하고, 해시값·파일 시그니처·메타데이터·타임라인을 일정한 형식으로 기록하는 흐름을 목표로 합니다.
 
-이 프로젝트는 BCG 해킹대회 `Forensic_1`, `Forensic_2` 풀이에서 경험한 파일 시그니처 확인, Hex 값 비교, 이미지 내부 단서 탐색을 기반으로 구성했습니다.
+이 프로젝트는 Autopsy, Wireshark, Ghidra 같은 공개 분석 도구에서 사용하는 증거 탐색·타임라인·파일 구조 확인 흐름을 기반으로 구성했습니다.
 
-## 실제 활동 이미지
+## 도구 기반 참고 이미지
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-1.jpg|Forensic_2 풀이 기록|Hex 값과 이미지 파일 구조를 확인하며 숨겨진 단서를 추적한 활동 이미지
-/media/awards/bcg-hacking-competition-writeup-2.jpg|Forensic_1 및 네트워크 문제 풀이 화면|파일 시그니처, Path Traversal, 네트워크 흔적을 함께 확인한 대회 풀이 기록
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 화면|증거 이미지와 파일 시스템을 탐색하고 타임라인으로 정리하는 참고 화면
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 포렌식 화면|통신 흔적과 이벤트 시간을 패킷 단위로 확인하는 분석 이미지
 /media/cyber-investigation/evidence-report-flow.svg|증거 수집부터 보고까지의 흐름|포렌식 자동화 파이프라인이 목표로 하는 증거-보고 연결 구조
 {{< /portfolio_slider >}}
 

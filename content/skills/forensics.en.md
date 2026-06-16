@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 30
 description: "Roadmap for digital evidence collection, integrity verification, and timeline analysis"
-image: "/media/awards/bcg-hacking-competition-writeup-2.jpg"
+image: "https://www.sleuthkit.org/autopsy/images/v3/overview.png"
 tags:
   - Digital Forensics
   - Evidence
@@ -16,7 +16,7 @@ tags:
 
 Forensics study is about finding digital traces, preserving them as reliable evidence, and explaining them as an incident flow. I study evidence collection, integrity verification, timeline reconstruction, and report writing as one connected workflow for cyber investigation preparation.
 
-In the 2021 BCG Hacking Competition, which I joined during my first year, I solved `Forensic_1` and `Forensic_2` challenges by checking file signatures, hex values, image structure, and hidden-string clues. I now reorganize those records into the flow `original preservation → clue extraction → interpretation → reporting`.
+Forensics study images are organized around real analysis tools such as Autopsy, Wireshark, and Ghidra instead of personal writeup screenshots. I study file signatures, hex values, image structure, and hidden-string clues through the flow `original preservation → clue extraction → interpretation → reporting`.
 
 ## Learning Roadmap
 
@@ -30,12 +30,12 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 | Stage 6 | Timeline | Reconstruct behavior sequence on a timeline |
 | Stage 7 | Reporting | Separate evidence list, reasoning, conclusion, and limitations |
 
-## Real Activity Images
+## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-2.jpg|BCG Forensic/Network Writeup Screen|Actual competition writeup image covering Forensic_1, Path Traversal, and Network challenges
-/media/awards/bcg-hacking-competition-writeup-1.jpg|BCG Forensic_2 - What_Does_BCG_Mean Record|Activity image showing hex values and image file structure analysis
-/media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition Result|First-year competition result: silver prize and 2nd place by points
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen|Reference screen for examining evidence images, file systems, timelines, and keyword searches
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Forensics Screen|Reference image for checking communication traces and event time at the packet level
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Tool screen used to connect executable structure and string clues with forensic artifacts
 {{< /portfolio_slider >}}
 
 ## Forensics Topics Connected From Real Activities
@@ -74,7 +74,7 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 - Applied the workflow to the forensic automation project
 - Managed award/career proof files in the portfolio with clear paths and explanations
 - Connected security monitoring experience with the flow from detection event to investigation material
-- Connected BCG `Forensic_1` and `Forensic_2` writeup images as real portfolio evidence
+- Connected public tool screens such as Autopsy, Wireshark, and Ghidra to evidence exploration and reasoning records
 - Organized file-signature and hex-analysis workflow concretely in the forensics page
 
 ## Next Plan
@@ -83,8 +83,14 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 - Connect reversing findings with forensic traces left by executables
 - Draft reports in the order of `summary → evidence → analysis → judgment → response`
 - Strengthen legal and ethical evidence-preservation perspective through the cyber investigation page
-- Keep accumulating evidence captures and reasoning notes around real activity images
+- Keep accumulating evidence captures and reasoning notes while separating tool screenshots from personal practice records
 - Strengthen the practice of connecting web hacking/reversing outputs with forensic evidence in one timeline
+
+## Image Sources
+
+- [Autopsy official screenshots](https://www.sleuthkit.org/autopsy/)
+- [Wireshark 3.6 screenshot](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
+- [Ghidra image](https://commons.wikimedia.org/wiki/File:Ghidra.jpg)
 
 ## Related Link
 

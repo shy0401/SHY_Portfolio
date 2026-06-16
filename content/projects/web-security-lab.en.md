@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 10
 role: "Vulnerability Analysis · Attack-Flow Mapping · Remediation Prioritization"
-image: "/media/awards/bcg-hacking-competition-writeup-2.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png"
 tags:
   - Web Hacking
   - OWASP
@@ -16,14 +16,14 @@ tags:
 
 This project reproduces key vulnerabilities in training web services and CTF-style challenges, then translates attack-path analysis into practical remediation priorities. The focus is not just finding vulnerabilities, but explaining request flow, reproduction conditions, impact scope, and response direction in one report-style output.
 
-The project connects my 2021 BCG Hacking Competition experience with XSS, Path Traversal, and proxy/request manipulation challenges to my current web hacking learning routine.
+The project connects XSS, Path Traversal, and proxy/request manipulation scenarios with OWASP ZAP, browser developer tools, and Wireshark-style request analysis.
 
-## Real Activity Images
+## Tool-Based Reference Images
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-2.jpg|Web Vulnerability Activity Screen|Record of checking developer tools and request flow while solving Practice XSS, Path Traversal, and Network challenges
-/media/awards/bcg-hacking-competition-writeup-1.jpg|Proxy/Request Manipulation Record|Activity image covering Referer, URL parameter, and file-path access analysis
-/media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition Result|First-year competition result: silver prize and 2nd place by points
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen|Reference screen for proxying, crawling, and vulnerability detection workflows
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark HTTP Flow Analysis Screen|Reference image for reviewing requests, responses, and session flow at the packet level
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Exploration Screen|Reference image for connecting web attack traces with forensic investigation
 {{< /portfolio_slider >}}
 
 ## Responsibilities

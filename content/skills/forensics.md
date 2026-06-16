@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 30
 description: "디지털 증거 수집, 무결성 검증, 타임라인 분석 학습 로드맵"
-image: "/media/awards/bcg-hacking-competition-writeup-2.jpg"
+image: "https://www.sleuthkit.org/autopsy/images/v3/overview.png"
 tags:
   - Digital Forensics
   - Evidence
@@ -16,7 +16,7 @@ tags:
 
 포렌식 학습은 디지털 흔적을 발견하고, 증거로서 신뢰할 수 있도록 보존하며, 사건 흐름으로 설명하는 과정입니다. 저는 사이버수사대 지망 진로에 맞춰 증거 수집 절차, 무결성 검증, 타임라인 재구성, 보고서 작성까지 하나의 흐름으로 공부하고 있습니다.
 
-1학년 때 참가한 2021 BCG 해킹대회에서는 `Forensic_1`, `Forensic_2` 문제를 풀며 파일 시그니처, Hex 값, 이미지 구조, 숨겨진 문자열 단서를 확인했습니다. 지금은 해당 활동을 단순 풀이 기록이 아니라 “원본 보존 → 단서 추출 → 의미 해석 → 보고서화” 흐름으로 다시 정리하고 있습니다.
+포렌식 학습 이미지는 개인 풀이 캡처 대신 Autopsy, Wireshark, Ghidra처럼 실제 분석 도구 화면을 중심으로 구성했습니다. 지금은 파일 시그니처, Hex 값, 이미지 구조, 숨겨진 문자열 단서를 “원본 보존 → 단서 추출 → 의미 해석 → 보고서화” 흐름으로 정리하고 있습니다.
 
 ## 학습 로드맵
 
@@ -30,12 +30,12 @@ tags:
 | 6단계 | 타임라인 | 행위 발생 순서를 시간축으로 재구성 |
 | 7단계 | 보고서화 | 증거 목록, 분석 근거, 결론, 한계점을 분리해 작성 |
 
-## 실제 활동 이미지
+## 도구 기반 학습 이미지
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-2.jpg|BCG Forensic/Network 풀이 화면|Forensic_1, Path Traversal, Network 문제를 함께 정리한 실제 대회 풀이 이미지
-/media/awards/bcg-hacking-competition-writeup-1.jpg|BCG Forensic_2 - What_Does_BCG_Mean 풀이 기록|Hex 값과 이미지 파일 구조를 확인하며 숨겨진 단서를 추적한 활동 이미지
-/media/awards/bcg-hacking-competition-result.png|2021 BCG 해킹대회 결과|1학년 때 참가해 은상, 포인트 석차 상위 2등을 기록한 대회 결과
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 분석 화면|증거 이미지, 파일 시스템, 타임라인, 키워드 검색을 통합적으로 확인하는 참고 화면
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 포렌식 화면|패킷 단위로 통신 흐름과 이벤트 시간을 확인하는 학습 이미지
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분석 화면|실행 파일 구조와 문자열 단서를 포렌식 흔적과 연결할 때 참고하는 도구 화면
 {{< /portfolio_slider >}}
 
 ## 실제 활동에서 연결한 포렌식 주제
@@ -74,7 +74,7 @@ tags:
 - 포렌식 자동화 프로젝트에 절차 반영
 - 수상/경력 증빙 자료를 포트폴리오 내에서 파일 경로와 설명으로 분리 관리
 - 보안관제 경험 기록과 연결해 탐지 이벤트가 조사 자료로 이어지는 흐름을 정리
-- BCG 해킹대회 `Forensic_1`, `Forensic_2` 풀이 이미지를 실제 활동 증빙으로 연결
+- Autopsy, Wireshark, Ghidra 등 공개 도구 화면을 기준으로 증거 탐색과 분석 근거 정리 과정을 연결
 - 파일 시그니처와 Hex 분석 흐름을 포렌식 학습 페이지에 구체적으로 정리
 
 ## 앞으로의 계획
@@ -83,8 +83,14 @@ tags:
 - 리버싱 결과와 포렌식 흔적을 연결해 실행 파일 분석 후 남는 이벤트 정리
 - 조사 보고서 초안을 `요약 → 증거 → 분석 → 판단 → 대응` 순서로 작성
 - 사이버수사 준비 페이지와 연결해 법적·윤리적 증거 보존 관점 보완
-- 실제 활동 이미지가 있는 문제를 중심으로 증거 캡처와 분석 근거를 계속 축적
+- 도구 화면과 실습 캡처를 분리해 증거 캡처와 분석 근거를 계속 축적
 - 웹해킹/리버싱 결과와 포렌식 증거를 하나의 타임라인으로 묶는 연습 강화
+
+## 이미지 출처
+
+- [Autopsy 공식 스크린샷](https://www.sleuthkit.org/autopsy/)
+- [Wireshark 3.6 스크린샷](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
+- [Ghidra 이미지](https://commons.wikimedia.org/wiki/File:Ghidra.jpg)
 
 ## 관련 링크
 

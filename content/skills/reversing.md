@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 20
 description: "바이너리 정적/동적 분석과 악성 행위 이해를 위한 학습 로드맵"
-image: "/media/awards/bcg-hacking-competition-writeup-1.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg"
 tags:
   - Reversing
   - Binary Analysis
@@ -16,7 +16,7 @@ tags:
 
 리버싱 학습은 실행 파일이 어떤 흐름으로 동작하는지 추적하고, 관찰한 행위를 근거 중심으로 설명하는 역량을 기르는 과정입니다. 현재는 기초 바이너리 분석 루틴을 반복하면서 정적 분석과 동적 분석의 역할을 구분해 기록하고 있습니다.
 
-1학년 때 참가한 2021 BCG 해킹대회에서는 `Reversing_1 - Buffer_Overflow` 문제를 풀며 입력값 길이, 실행 결과 문자열, 파일 내부 구조를 함께 확인했습니다. 당시에는 정답을 찾는 데 집중했다면, 지금은 같은 기록을 바탕으로 “어떤 단서가 있었고, 어떤 방식으로 검증했는지”를 다시 정리하고 있습니다.
+리버싱 학습 이미지는 개인 풀이 캡처 대신 Ghidra 같은 공개 분석 도구 화면을 중심으로 정리했습니다. 지금은 입력값 길이, 실행 결과 문자열, 파일 내부 구조를 확인하는 과정을 “어떤 단서가 있었고, 어떤 방식으로 검증했는지” 기준으로 다시 정리하고 있습니다.
 
 ## 학습 로드맵
 
@@ -30,12 +30,12 @@ tags:
 | 6단계 | 행위 해석 | 파일 생성, 네트워크 접근, 레지스트리 변경 가능성 정리 |
 | 7단계 | 보고서화 | 의심 지점, 근거, 재현 방법, 보안적 의미를 문서화 |
 
-## 실제 활동 이미지
+## 도구 기반 학습 이미지
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-1.jpg|BCG Reversing_1 - Buffer_Overflow 풀이 기록|입력값과 실행 결과 문자열을 비교하며 Buffer Overflow 단서를 확인한 활동 이미지
-/media/awards/bcg-hacking-competition-writeup-2.jpg|BCG 리버싱/포렌식 풀이 화면|리버싱 문제와 파일 구조 분석을 함께 정리한 실제 대회 풀이 화면
-/media/awards/bcg-hacking-competition-result.png|2021 BCG 해킹대회 결과|1학년 때 참가해 은상, 포인트 석차 상위 2등을 기록한 대회 결과
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분석 화면|함수 목록, 디컴파일 결과, 문자열 단서를 함께 확인하는 리버싱 대표 도구 화면
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 파일 증거 탐색 화면|실행 파일과 남은 흔적을 포렌식 관점으로 이어서 확인하는 참고 이미지
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 행위 관찰 화면|분석 대상 프로그램의 통신 흔적을 네트워크 관점에서 확인하는 도구 화면
 {{< /portfolio_slider >}}
 
 ## 실제 활동에서 연결한 리버싱 주제
@@ -73,7 +73,7 @@ tags:
 - 분석 결과를 프로젝트 페이지와 연결 가능한 형식으로 정리
 - 리버싱 학습 프로젝트에서 `정적 단서 → 동적 검증 → 행위 설명` 구조 반영
 - 사이버수사 준비 페이지와 연결해 기술 분석을 사건 흐름으로 설명하는 훈련 진행
-- BCG 해킹대회 `Reversing_1 - Buffer_Overflow` 풀이 이미지를 실제 활동 증빙으로 연결
+- Ghidra 등 공개 분석 도구 화면을 기준으로 정적 단서와 동적 검증 과정을 포트폴리오에 연결
 - Buffer Overflow 문제를 입력 검증, 경계값, 실행 흐름 분석 관점으로 다시 정리
 
 ## 앞으로의 계획
@@ -82,8 +82,14 @@ tags:
 - 간단한 악성 행위 시나리오를 만들어 분석 로그와 대응 관점을 함께 정리
 - 포렌식 타임라인과 리버싱 결과를 연결해 “실행 파일이 남긴 흔적”을 설명하는 연습 추가
 - 리버싱 결과를 비전문가도 이해할 수 있는 요약문으로 작성
-- BCG 풀이 기록처럼 실제 이미지가 있는 문제를 중심으로 분석 근거를 계속 축적
+- 도구 화면, 실습 캡처, 분석 노트를 분리해 리버싱 근거를 계속 축적
 - 디버거 관찰 결과를 사이버수사 보고서형 문장으로 바꾸는 연습 강화
+
+## 이미지 출처
+
+- [Ghidra 이미지](https://commons.wikimedia.org/wiki/File:Ghidra.jpg)
+- [Autopsy 공식 스크린샷](https://www.sleuthkit.org/autopsy/)
+- [Wireshark 3.6 스크린샷](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
 
 ## 관련 링크
 

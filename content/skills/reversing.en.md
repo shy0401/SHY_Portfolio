@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 20
 description: "Roadmap for static/dynamic binary analysis and behavior understanding"
-image: "/media/awards/bcg-hacking-competition-writeup-1.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg"
 tags:
   - Reversing
   - Binary Analysis
@@ -16,7 +16,7 @@ tags:
 
 Reversing study helps me understand how an executable behaves and explain observed behavior with evidence. I currently repeat basic binary analysis routines while separating static clues and dynamic verification.
 
-In the 2021 BCG Hacking Competition, which I joined during my first year, I solved the `Reversing_1 - Buffer_Overflow` challenge by checking input length, execution output strings, and file-structure clues together. At the time, I focused on solving the challenge; now I reorganize the same record around what clues I found and how I verified them.
+For reversing study images, I use public analysis tool screens such as Ghidra rather than personal challenge captures. I organize input length, execution output strings, and internal file structure around what clues are visible and how they can be verified.
 
 ## Learning Roadmap
 
@@ -30,12 +30,12 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 | Stage 6 | Behavior interpretation | File creation, network access, registry change possibilities |
 | Stage 7 | Reporting | Suspicious point, evidence, reproduction method, and security meaning |
 
-## Real Activity Images
+## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-1.jpg|BCG Reversing_1 - Buffer_Overflow Writeup|Activity image showing input/output comparison and Buffer Overflow clues
-/media/awards/bcg-hacking-competition-writeup-2.jpg|BCG Reversing/Forensics Writeup Screen|Actual competition writeup screen connecting reversing and file-structure analysis
-/media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition Result|First-year competition result: silver prize and 2nd place by points
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Representative reversing tool screen for functions, decompiled code, and string clues
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy File Evidence Screen|Reference image for linking executable analysis with file artifacts
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Behavior Screen|Tool screen for checking communication artifacts from analyzed programs
 {{< /portfolio_slider >}}
 
 ## Reversing Topics Connected From Real Activities
@@ -73,7 +73,7 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 - Organized findings into project-linkable format
 - Reflected the structure `static clue → dynamic verification → behavior explanation` in the reversing study project
 - Connected reversing outputs with cyber investigation preparation by translating technical findings into incident flow
-- Connected the BCG `Reversing_1 - Buffer_Overflow` activity image as real portfolio evidence
+- Connected public analysis tool screens such as Ghidra to static clues and dynamic verification records
 - Reorganized the Buffer Overflow challenge through input validation, boundary value, and execution-flow perspectives
 
 ## Next Plan
@@ -82,8 +82,14 @@ In the 2021 BCG Hacking Competition, which I joined during my first year, I solv
 - Build small behavior scenarios and document analysis logs with response perspective
 - Connect reversing findings with forensic timelines to explain artifacts left by executables
 - Write non-specialist summaries for reversing results
-- Keep accumulating evidence-based analysis notes using real activity images like the BCG writeups
+- Keep accumulating reversing evidence by separating tool screens, practice captures, and analysis notes
 - Strengthen the practice of converting debugger observations into cyber-investigation-style explanations
+
+## Image Sources
+
+- [Ghidra image](https://commons.wikimedia.org/wiki/File:Ghidra.jpg)
+- [Autopsy official screenshots](https://www.sleuthkit.org/autopsy/)
+- [Wireshark 3.6 screenshot](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
 
 ## Related Link
 

@@ -25,7 +25,7 @@ I have completed the English and Korean history proof requirements and am now fo
 /media/cyber-investigation/cyber-investigation-roadmap.svg|Cyber Investigation Preparation Roadmap|Step-by-step plan connecting requirements, written exam, physical test, interview, and cyber investigation skills
 /media/cyber-investigation/evidence-report-flow.svg|Evidence-to-Report Flow|Workflow from collection and integrity verification to analysis, timeline, judgment, and reporting
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|KISA Mini Challenge Grand Prize|Field-style cybersecurity problem-solving experience connected to cyber response capability
-/media/awards/bcg-hacking-competition-writeup-2.jpg|BCG Hacking Competition Writeup|Web hacking, forensics, and network challenge records connected to incident-flow documentation
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Analysis Screen|Web, forensics, and network traces connected to incident-flow documentation
 {{< /portfolio_slider >}}
 
 ## Preparation Roadmap
@@ -56,7 +56,7 @@ I have completed the English and Korean history proof requirements and am now fo
 
 | Required Capability | My Preparation | Evidence |
 | --- | --- | --- |
-| Incident-flow understanding | Connect attack vector, vulnerability, logs, and file traces chronologically | BCG writeup images and web/forensics learning records |
+| Incident-flow understanding | Connect attack vector, vulnerability, logs, and file traces chronologically | Web/forensics tool screens and learning records |
 | Evidence preservation | Separate original/copy, hash values, file signatures, metadata | Forensics page and forensic automation project |
 | Technical analysis | Web vulnerabilities, Buffer Overflow, Path Traversal, XSS, file-structure analysis | Web hacking, reversing, and forensics pages |
 | Report writing | Separate technical evidence and judgment evidence | Reading contest award and portfolio documentation |

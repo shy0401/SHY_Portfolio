@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 20
 role: "Evidence Automation · Integrity Validation · Reporting Template Design"
-image: "/media/awards/bcg-hacking-competition-writeup-1.jpg"
+image: "https://www.sleuthkit.org/autopsy/images/v3/overview.png"
 tags:
   - Forensics
   - Automation
@@ -16,13 +16,13 @@ tags:
 
 This project automates repetitive baseline forensic tasks to reduce turnaround time and standardize evidence-ready outputs. The goal is to separate originals and working copies, then record hashes, file signatures, metadata, and timelines in a consistent format.
 
-The project is based on experience from the BCG `Forensic_1` and `Forensic_2` challenges, where I checked file signatures, compared hex values, and searched for clues inside image files.
+The project is based on evidence exploration, timeline reconstruction, and file-structure workflows used in public analysis tools such as Autopsy, Wireshark, and Ghidra.
 
-## Real Activity Images
+## Tool-Based Reference Images
 
 {{< portfolio_slider >}}
-/media/awards/bcg-hacking-competition-writeup-1.jpg|Forensic_2 Writeup Record|Activity image showing hex values and image file structure analysis
-/media/awards/bcg-hacking-competition-writeup-2.jpg|Forensic_1 and Network Challenge Screen|Competition writeup record covering file signatures, Path Traversal, and network traces
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen|Reference screen for exploring evidence images, file systems, and timeline data
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Forensics Screen|Analysis image for reviewing communication traces and event timing at the packet level
 /media/cyber-investigation/evidence-report-flow.svg|Evidence-to-Report Flow|The evidence-report connection structure targeted by the forensic automation pipeline
 {{< /portfolio_slider >}}
 
