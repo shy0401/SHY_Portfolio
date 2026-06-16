@@ -34,7 +34,7 @@ My academic base is computer science fundamentals such as programming, data stru
 - 2025 Honam Information Protection Hackathon: Bronze Prize, Honam Information Protection Support Center Director Award
 - 2021 BCG Hacking Competition: 2nd Place
 - KISA Hacking Competition: 1st and 3rd Place
-- Craftsman Information Processing Certificate and TOEIC 650
+- Craftsman Information Processing Certificate, TOEIC 650, and Korean History Proficiency Test proof completed
 - Gyeryongdae Service Support Group Reading Contest: Excellence Award
 - Army Cyber Operations Center cyber monitoring soldier career record connected to cyber investigation preparation
 
@@ -42,7 +42,8 @@ My academic base is computer science fundamentals such as programming, data stru
 
 - Convert one topic per week into a page using the sequence `concept → practice → evidence → response perspective`
 - Connect award proof and project outputs as evidence of practical analysis capability
-- Integrate police officer candidate exam preparation with public-sector cybersecurity documentation and judgment skills
+- Integrate Korean police patrol officer exam preparation with public-sector cybersecurity documentation and judgment skills
+- After completing TOEIC and Korean history proof requirements, continue preparing criminal law, constitutional law, police studies, physical test routines, and interview answers
 
 ## Related Links
 

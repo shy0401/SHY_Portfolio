@@ -50,8 +50,8 @@ params:
   semester_en: "4th Year, 1st Semester"
   role_ko: "사이버수사대 지망 · 보안/개발 포트폴리오"
   role_en: "Cyber Investigation Aspirant · Security & Developer Portfolio"
-  goal_ko: "경찰간부후보생 시험을 준비하며 공공 보안 분야 진로를 구체화하고 있습니다."
-  goal_en: "Preparing for the Police Officer Candidate Exam while shaping a public-sector cyber security path."
+  goal_ko: "경찰순경시험 준비 조건인 TOEIC과 한국사검정능력시험을 완료하고, 1차 필기와 체력·면접 전형을 준비하고 있습니다."
+  goal_en: "Completed the TOEIC and Korean History Proficiency requirements for the Korean police patrol officer exam, and preparing for the written, physical, and interview stages."
   focus_ko: "웹해킹, 리버싱, 포렌식 중심의 분석 역량을 체계적으로 강화하고 있습니다."
   focus_en: "Building practical capability in web hacking, reverse engineering, and digital forensics."
   github: "https://github.com/shy0401/"
@@ -81,6 +81,11 @@ params:
     - "코덱스"
     - "전북대학교 IT정보공학과"
     - "사이버수사대 지망"
+    - "경찰순경시험"
+    - "한국사검정능력시험"
+    - "형법"
+    - "헌법"
+    - "경찰학개론"
     - "호남지역 정보보호 해커톤"
     - "호남권 정보보호 특별과정"
     - "한국인터넷진흥원장상"
@@ -105,6 +110,8 @@ params:
     - "Cyber Investigation Portfolio"
     - "BCG Hacking Competition"
     - "2021 BCG Hacking Competition 2nd Place"
+    - "Korean Police Patrol Officer Exam"
+    - "Korean History Proficiency Test"
 
 languages:
   ko:

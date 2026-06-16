@@ -20,7 +20,7 @@ image: "/media/awards/honam-security-hackathon-bronze.jpg"
 {{< timeline_item period="2023" title="계룡대근무지원단 장병 독후감 공모전 우수상" desc="기술 분석 결과를 설득력 있는 글로 정리하는 데 필요한 구조화와 표현 역량을 보완했습니다." >}}
 {{< timeline_item period="2025" title="호남권 정보보호 특별과정 미니챌린지 대상" desc="KISA 주관 특별과정에서 실전형 문제 해결 능력과 분석 결과 정리 역량을 검증했습니다." >}}
 {{< timeline_item period="2025" title="호남지역 정보보호 해커톤 동상" desc="팀 기반 정보보호 해커톤에서 협업, 역할 분담, 결과 발표 흐름을 경험했습니다." >}}
-{{< timeline_item period="현재" title="경찰간부후보생 시험 준비중" desc="공공 보안 진로를 목표로 기술 실습과 문서화 훈련을 병행하고 있습니다." >}}
+{{< timeline_item period="현재" title="경찰순경시험 준비중" desc="TOEIC과 한국사검정능력시험 조건을 완료하고, 형법·헌법·경찰학개론 1차 필기와 2·3차 체력·면접 준비를 병행하고 있습니다." >}}
 {{< timeline_item period="예정" title="세종 핵테온 참가예정" desc="현장형 문제 대응 경험을 늘리고 대회 풀이를 수사 보고서형 기록으로 확장할 계획입니다." >}}
 </div>
 
@@ -30,3 +30,4 @@ image: "/media/awards/honam-security-hackathon-bronze.jpg"
 - 분석 근거와 결과를 페이지별로 지속 기록
 - 수상 증빙 이미지를 대회 기록, 갤러리, 다운로드 페이지에서 일관되게 관리
 - 사이버수사 준비 관점에서 “문제 풀이”를 “사건 흐름 설명”으로 재작성
+- 경찰순경시험 1차 필기와 체력·면접 준비 루틴을 진로 목표 페이지에 지속 반영

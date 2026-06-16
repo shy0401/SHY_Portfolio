@@ -12,6 +12,7 @@ image: "/media/awards/honam-mini-challenge-kisa-grand-prize.jpg"
 <div class="download-list">
   <a class="btn primary" href="/media/certificates/craftsman-it.png" download>정보처리기능사 증빙</a>
   <a class="btn" href="/media/certificates/toeic-650.jpg" download>TOEIC 650 성적표</a>
+  <a class="btn" href="/media/certificates/korean-history-certificate.pdf" download>한국사검정능력시험 인증서</a>
   <a class="btn" href="/media/awards/honam-mini-challenge-kisa-grand-prize.jpg" download>호남권 미니챌린지 대상 증빙</a>
   <a class="btn" href="/media/awards/honam-security-hackathon-bronze.jpg" download>호남지역 정보보호 해커톤 동상 증빙</a>
   <a class="btn" href="/media/awards/bcg-hacking-competition-result.png" download>BCG 해킹대회 2등 증빙</a>

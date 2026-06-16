@@ -20,7 +20,7 @@ This page organizes security learning, competition experience, military cyber-re
 {{< timeline_item period="2023" title="Gyeryongdae Reading Contest - Excellence Award" desc="Strengthened structured writing and persuasive explanation skills needed for security documentation." >}}
 {{< timeline_item period="2025" title="Honam Mini Challenge - Grand Prize" desc="Validated field-style problem solving and documentation ability in a KISA-related special course challenge." >}}
 {{< timeline_item period="2025" title="Honam Information Protection Hackathon - Bronze Prize" desc="Experienced teamwork, role sharing, and result presentation in a cybersecurity hackathon." >}}
-{{< timeline_item period="Current" title="Preparing for Police Officer Candidate Exam" desc="Combining technical practice and documentation training toward a public security career path." >}}
+{{< timeline_item period="Current" title="Preparing for the Korean Police Patrol Officer Exam" desc="Completed TOEIC and Korean History Proficiency requirements, and preparing for criminal law, constitutional law, police studies, physical test, and interview stages." >}}
 {{< timeline_item period="Planned" title="Sejong HackTheon Participation" desc="Next activity to expand field-style response experience and investigation-style writeups." >}}
 </div>
 
@@ -30,3 +30,4 @@ This page organizes security learning, competition experience, military cyber-re
 - Continue documenting analysis evidence and outcomes per page
 - Manage award proof images consistently across award, gallery, and download pages
 - Rewrite challenge solutions from cyber investigation and incident-flow perspectives
+- Keep updating the roadmap for the written, physical, and interview stages of the police exam

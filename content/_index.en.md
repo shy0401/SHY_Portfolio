@@ -24,12 +24,16 @@ keywords:
   - "Cyber Investigation"
   - "Honam Information Protection"
   - "BCG Hacking Competition"
+  - "Korean Police Patrol Officer Exam"
+  - "Korean History Proficiency Test"
 ---
 
 ## Security & Developer Portfolio Summary
 
 I am a 4th-year student in IT Information Engineering at Jeonbuk National University.  
-While preparing for the Police Officer Candidate Exam, I continue to build web hacking, reversing, digital forensics, and security monitoring skills through a structured roadmap.
+While preparing for the Korean police patrol officer exam, I continue to build web hacking, reversing, digital forensics, and security monitoring skills through a structured roadmap.
+
+I have completed the TOEIC and Korean History Proficiency Test requirements, and I am now focusing on the first-stage written subjects, including criminal law, constitutional law, and police studies, while also preparing for the physical test and interview stages.
 
 This portfolio connects cybersecurity awards, cyber monitoring career records, certificates, language proof, and project outputs so visitors can understand what I study, in what order, and how each record supports my career direction.
 
