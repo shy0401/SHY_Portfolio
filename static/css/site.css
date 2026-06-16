@@ -533,6 +533,21 @@ a {
   display: block;
 }
 
+.section-hero-image.image-contain,
+.single-hero-image.image-contain {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--panel-solid) 88%, transparent), color-mix(in srgb, var(--bg-soft) 92%, transparent)),
+    radial-gradient(circle at 18% 12%, color-mix(in srgb, var(--primary) 10%, transparent), transparent 32%);
+}
+
+.section-hero-image.image-contain img,
+.single-hero-image.image-contain img {
+  height: clamp(280px, 54vw, 520px);
+  max-height: 520px;
+  object-fit: contain;
+  padding: clamp(0.45rem, 1.4vw, 1rem);
+}
+
 .section-hero-overlay,
 .single-hero-overlay,
 .content-overlay {
@@ -695,6 +710,113 @@ a {
   gap: 0.75rem;
 }
 
+.proof-album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.2rem;
+}
+
+.proof-album-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--card-bg);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.proof-album-card:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--primary) 56%, transparent);
+  box-shadow: var(--shadow-glass);
+}
+
+.proof-album-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 260px;
+  aspect-ratio: 4 / 3;
+  padding: 0.75rem;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--panel-solid) 88%, transparent), color-mix(in srgb, var(--bg-soft) 92%, transparent)),
+    radial-gradient(circle at 72% 18%, color-mix(in srgb, var(--primary) 10%, transparent), transparent 34%);
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+}
+
+.proof-album-media img {
+  width: 100%;
+  height: 100%;
+  max-height: 330px;
+  object-fit: contain;
+  display: block;
+  border-radius: 12px;
+  filter: drop-shadow(0 12px 22px rgba(0, 0, 0, 0.16));
+}
+
+.proof-album-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 0.95rem;
+}
+
+.proof-album-meta {
+  width: fit-content;
+  margin: 0;
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  background: var(--chip-bg);
+  color: var(--chip-text);
+  padding: 0.22rem 0.55rem;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.proof-album-body h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.proof-album-body p:not(.proof-album-meta) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.proof-album-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: auto;
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  background: var(--glass-strong);
+  color: var(--text-main);
+  padding: 0.42rem 0.72rem;
+  font-size: 0.86rem;
+  font-weight: 850;
+  text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.proof-album-action:hover,
+.proof-album-action:focus-visible {
+  transform: translateY(-1px);
+  color: var(--accent-hover);
+  border-color: color-mix(in srgb, var(--accent-hover) 58%, transparent);
+  background: color-mix(in srgb, var(--glass-strong) 72%, var(--accent-hover));
+}
+
 .download-list {
   display: flex;
   flex-wrap: wrap;
@@ -800,6 +922,7 @@ a {
 
   .home-card-grid,
   .content-grid,
+  .proof-album-grid,
   .contact-link-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -834,9 +957,15 @@ a {
   .home-card-grid,
   .content-grid,
   .evidence-grid,
+  .proof-album-grid,
   .portfolio-slider,
   .contact-link-grid {
     grid-template-columns: 1fr;
+  }
+
+  .proof-album-media {
+    min-height: 220px;
+    aspect-ratio: 5 / 4;
   }
 
   .slider-media {
@@ -926,6 +1055,7 @@ html[data-theme="dark"] body {
 .panel,
 .feature-card,
 .content-card,
+.proof-album-card,
 .profile-panel,
 .timeline-item,
 .slider-item,
@@ -1129,6 +1259,7 @@ html[data-theme="dark"] .hero .btn.primary {
 
 .feature-card,
 .content-card,
+.proof-album-card,
 .timeline-item,
 .slider-item,
 .contact-link-card {
@@ -1137,6 +1268,7 @@ html[data-theme="dark"] .hero .btn.primary {
 
 .feature-card-link:hover .feature-card,
 .content-card:hover,
+.proof-album-card:hover,
 .contact-link-card:hover,
 .slider-item:hover {
   transform: translateY(-4px);

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">한국사검정능력시험 인증서 미리보기</title>
+  <desc id="desc">경찰순경시험 한국사 인증 조건 완료를 나타내는 PDF 증빙 미리보기 카드</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#eef6ff"/>
+    </linearGradient>
+    <linearGradient id="seal" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="#111827"/>
+  <rect x="78" y="72" width="744" height="1056" rx="36" fill="url(#paper)" filter="url(#shadow)"/>
+  <rect x="116" y="112" width="668" height="976" rx="24" fill="none" stroke="#d6a84f" stroke-width="6"/>
+  <rect x="142" y="138" width="616" height="924" rx="18" fill="none" stroke="#f2d38b" stroke-width="2"/>
+  <circle cx="450" cy="260" r="84" fill="url(#seal)" opacity="0.95"/>
+  <path d="M450 198l19 39 43 6-31 30 8 43-39-21-39 21 8-43-31-30 43-6z" fill="#ffffff"/>
+  <text x="450" y="410" text-anchor="middle" font-family="Pretendard, Segoe UI, sans-serif" font-size="54" font-weight="800" fill="#111827">한국사검정능력시험</text>
+  <text x="450" y="476" text-anchor="middle" font-family="Pretendard, Segoe UI, sans-serif" font-size="38" font-weight="700" fill="#2563eb">인증 완료</text>
+  <line x1="184" y1="548" x2="716" y2="548" stroke="#d6a84f" stroke-width="3"/>
+  <text x="184" y="638" font-family="Pretendard, Segoe UI, sans-serif" font-size="34" font-weight="700" fill="#1f2937">용도</text>
+  <text x="300" y="638" font-family="Pretendard, Segoe UI, sans-serif" font-size="34" fill="#374151">경찰순경시험 한국사 인증 조건</text>
+  <text x="184" y="724" font-family="Pretendard, Segoe UI, sans-serif" font-size="34" font-weight="700" fill="#1f2937">상태</text>
+  <text x="300" y="724" font-family="Pretendard, Segoe UI, sans-serif" font-size="34" fill="#374151">증빙 PDF 보유</text>
+  <text x="184" y="810" font-family="Pretendard, Segoe UI, sans-serif" font-size="34" font-weight="700" fill="#1f2937">연결</text>
+  <text x="300" y="810" font-family="Pretendard, Segoe UI, sans-serif" font-size="34" fill="#374151">형법·헌법·경찰학개론 준비</text>
+  <rect x="184" y="908" width="532" height="88" rx="22" fill="#111827"/>
+  <text x="450" y="963" text-anchor="middle" font-family="Pretendard, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#ffffff">PDF 인증서 다운로드 연결</text>
+</svg>

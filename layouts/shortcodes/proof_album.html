@@ -1,0 +1,41 @@
+{{ $items := split (trim .Inner "\n") "\n" }}
+{{ $isKo := eq .Page.Language.Lang "ko" }}
+<div class="proof-album-grid">
+  {{ range $row := $items }}
+    {{ $line := trim $row " " }}
+    {{ if $line }}
+      {{ $parts := split $line "|" }}
+      {{ $src := index $parts 0 }}
+      {{ $title := "" }}
+      {{ $meta := "" }}
+      {{ $desc := "" }}
+      {{ $href := $src }}
+      {{ $action := "download" }}
+      {{ if ge (len $parts) 2 }}{{ $title = index $parts 1 }}{{ end }}
+      {{ if ge (len $parts) 3 }}{{ $meta = index $parts 2 }}{{ end }}
+      {{ if ge (len $parts) 4 }}{{ $desc = index $parts 3 }}{{ end }}
+      {{ if ge (len $parts) 5 }}{{ $href = index $parts 4 }}{{ end }}
+      {{ if ge (len $parts) 6 }}{{ $action = index $parts 5 }}{{ end }}
+      {{ $imgSrc := cond (or (hasPrefix $src "http://") (hasPrefix $src "https://")) $src ($src | relURL) }}
+      {{ $hrefSrc := cond (or (hasPrefix $href "http://") (hasPrefix $href "https://")) $href ($href | relURL) }}
+      {{ $isDownload := ne $action "open" }}
+      <article class="proof-album-card">
+        <a class="proof-album-media" href="{{ $hrefSrc }}"{{ if $isDownload }} download{{ end }}>
+          <img src="{{ $imgSrc }}" alt="{{ $title }}">
+        </a>
+        <div class="proof-album-body">
+          {{ if $meta }}<p class="proof-album-meta">{{ $meta }}</p>{{ end }}
+          {{ if $title }}<h3>{{ $title }}</h3>{{ end }}
+          {{ if $desc }}<p>{{ $desc }}</p>{{ end }}
+          <a class="proof-album-action" href="{{ $hrefSrc }}"{{ if $isDownload }} download{{ end }}>
+            {{ if $isDownload }}
+              {{ if $isKo }}자료 다운로드{{ else }}Download File{{ end }}
+            {{ else }}
+              {{ if $isKo }}상세 보기{{ else }}Open Record{{ end }}
+            {{ end }}
+          </a>
+        </div>
+      </article>
+    {{ end }}
+  {{ end }}
+</div>

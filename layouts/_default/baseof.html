@@ -10,7 +10,8 @@
   {{ $keywords := delimit $defaultKeywords ", " }}
   {{ with .Params.keywords }}{{ $keywords = delimit . ", " }}{{ end }}
   {{ $ogImageRaw := .Params.image | default site.Params.og_image }}
-  {{ $ogImage := cond (or (hasPrefix $ogImageRaw "http://") (hasPrefix $ogImageRaw "https://")) $ogImageRaw ($ogImageRaw | absURL) }}
+  {{ $ogImagePath := replaceRE "^/" "" $ogImageRaw }}
+  {{ $ogImage := cond (or (hasPrefix $ogImageRaw "http://") (hasPrefix $ogImageRaw "https://")) $ogImageRaw ($ogImagePath | absURL) }}
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

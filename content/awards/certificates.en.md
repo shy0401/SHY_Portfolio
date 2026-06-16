@@ -5,6 +5,8 @@ draft: false
 weight: 20
 description: "Certificates, language score, Korean History Proficiency proof, award proofs, and career records"
 image: "/media/certificates/craftsman-it.png"
+image_fit: contain
+hide_image_overlay: true
 tags:
   - Certificates
   - Proof
@@ -14,13 +16,26 @@ tags:
 
 ## Overview
 
-This page organizes certificates, language scores, competition proofs, and career-related records. Downloadable files are linked directly, while career proof items without uploaded files are kept as structured portfolio records for future linking.
+This page organizes certificates, language scores, competition proofs, and career-related records. The records are shown as an album-style grid so each proof image can be viewed directly, with download links kept for submission use.
 
 ## Certificates and Language
 
 - Craftsman Information Processing: national technical certificate for software fundamentals, data processing, and system operation
 - TOEIC 650: language foundation for reading technical material and English documentation
 - Korean History Proficiency Test proof: completed the Korean history requirement for the Korean police patrol officer exam
+
+## Proof Album
+
+{{< proof_album >}}
+/media/certificates/craftsman-it.png|Craftsman Information Processing|National Technical Certificate|Proof of software fundamentals, data processing, and system operation knowledge.|/media/certificates/craftsman-it.png|download
+/media/certificates/toeic-650.jpg|TOEIC 650|Language Proof|English requirement proof for the Korean police patrol officer exam.|/media/certificates/toeic-650.jpg|download
+/media/certificates/korean-history-certificate-preview.svg|Korean History Proficiency Test|Korean History Proof|PDF proof for completing the Korean history requirement.|/media/certificates/korean-history-certificate.pdf|download
+/media/awards/honam-mini-challenge-kisa-grand-prize.jpg|2025 Honam Mini Challenge|KISA President Grand Prize|Award proof from a practical cybersecurity challenge.|/media/awards/honam-mini-challenge-kisa-grand-prize.jpg|download
+/media/awards/honam-security-hackathon-bronze.jpg|2025 Honam Security Hackathon|Bronze Prize|Award record from a team-based information protection hackathon.|/media/awards/honam-security-hackathon-bronze.jpg|download
+/media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition|Silver Prize, 2nd Place|An early first-year achievement across reversing, forensics, web, and network challenges.|/en/awards/bcg-hacking-competition/|open
+/media/awards/ai-contest-certificate.jpg|AI-based Image Generation Contest|Integrated 3rd-place Record|The certificate and 3rd-place image are managed as one competition record.|/en/awards/ai-image-contest/|open
+/media/awards/gyeryong-reading-contest-excellence.png|Reading Contest|Excellence Award|Proof of structured writing and communication experience during military service.|/media/awards/gyeryong-reading-contest-excellence.png|download
+{{< /proof_album >}}
 
 ## Career and Proof Items
 
@@ -33,7 +48,7 @@ This page organizes certificates, language scores, competition proofs, and caree
 | 2025 Honam Information Protection Hackathon Bronze Prize | Award proof | Team-based hackathon and analysis result |
 | AI-based Image Generation Contest 3rd Place | Award proof | Managed as one integrated record with the certificate and result image |
 
-## Downloads
+## Quick Downloads
 
 <div class="download-list">
   <a class="btn primary" href="/media/certificates/craftsman-it.png" download>Craftsman Certificate</a>
