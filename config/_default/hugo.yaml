@@ -98,6 +98,8 @@ params:
     - "2021 BCG 해킹대회 2등"
     - "2026 JBNU AI.SW 경진대회"
     - "전북대학교 AI SW 경진대회"
+    - "2021 MODI 활용 온라인 교육캠프"
+    - "모디교육 수료증"
   seo_keywords_en:
     - "Ha-yoon Shin"
     - "Jeonbuk National University"
@@ -116,6 +118,8 @@ params:
     - "Korean History Proficiency Test"
     - "2026 JBNU AI.SW Contest"
     - "Jeonbuk National University AI SW Contest"
+    - "2021 MODI Online Education Camp"
+    - "MODI Education Certificate"
 
 languages:
   ko:
@@ -199,6 +203,10 @@ languages:
           parent: "awards"
           pageRef: "/awards/jbnu-ai-sw-contest-2026"
           weight: 55
+        - name: "2021 MODI 교육캠프"
+          parent: "awards"
+          pageRef: "/awards/modi-education-2021"
+          weight: 56
 
         - name: "프로젝트"
           identifier: "projects"
@@ -320,6 +328,10 @@ languages:
           parent: "awards"
           pageRef: "/awards/jbnu-ai-sw-contest-2026"
           weight: 55
+        - name: "2021 MODI Education Camp"
+          parent: "awards"
+          pageRef: "/awards/modi-education-2021"
+          weight: 56
 
         - name: "Projects"
           identifier: "projects"

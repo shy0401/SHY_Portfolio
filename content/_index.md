@@ -61,6 +61,7 @@ keywords:
 /media/awards/honam-security-hackathon-bronze.jpg|호남지역 정보보호 해커톤 동상|호남정보보호지원센터장상 수상
 /media/awards/bcg-hacking-competition-result.png|2021 BCG 해킹대회 2등|1학년 때 참가한 보안 대회 성과
 /media/awards/jbnu-ai-sw-contest-2026.jpg|2026 JBNU AI.SW 경진대회|전북대학교 AI·SW 분야 활동 기록
+/media/awards/modi-education-certificate-2021.png|2021 MODI 활용 온라인 교육캠프|수료 및 3등 기록
 /media/awards/ai-contest-certificate.jpg|AI 기반 이미지 생성 콘테스트 통합 기록|AI 이미지 생성대회 3등과 동일 대회
 /media/awards/gyeryong-reading-contest-excellence.png|장병 독후감 공모전 우수상|계룡대근무지원단 수상
 /media/certificates/craftsman-it.png|정보처리기능사|자격 증빙

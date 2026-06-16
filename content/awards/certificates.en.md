@@ -34,6 +34,7 @@ This page organizes certificates, language scores, competition proofs, and caree
 /media/awards/honam-security-hackathon-bronze.jpg|2025 Honam Security Hackathon|Bronze Prize|Award record from a team-based information protection hackathon.|/media/awards/honam-security-hackathon-bronze.jpg|download
 /media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition|Silver Prize, 2nd Place|An early first-year achievement across reversing, forensics, web, and network challenges.|/en/awards/bcg-hacking-competition/|open
 /media/awards/ai-contest-certificate.jpg|AI-based Image Generation Contest|Integrated 3rd-place Record|The certificate and 3rd-place image are managed as one competition record.|/en/awards/ai-image-contest/|open
+/media/awards/modi-education-certificate-2021.png|2021 MODI Online Education Camp|Completion and 3rd Place|Proof of SW and physical-computing camp participation and achievement.|/en/awards/modi-education-2021/|open
 /media/awards/gyeryong-reading-contest-excellence.png|Reading Contest|Excellence Award|Proof of structured writing and communication experience during military service.|/media/awards/gyeryong-reading-contest-excellence.png|download
 {{< /proof_album >}}
 
@@ -47,6 +48,7 @@ This page organizes certificates, language scores, competition proofs, and caree
 | 2025 Honam Information Protection Special Course Mini Challenge Grand Prize | Award proof | Field-style security challenge achievement |
 | 2025 Honam Information Protection Hackathon Bronze Prize | Award proof | Team-based hackathon and analysis result |
 | AI-based Image Generation Contest 3rd Place | Award proof | Managed as one integrated record with the certificate and result image |
+| 2021 MODI Online Education Camp | Completion and achievement proof | Completion and 3rd-place record from a SW and physical-computing education camp |
 
 ## Quick Downloads
 
@@ -56,6 +58,7 @@ This page organizes certificates, language scores, competition proofs, and caree
   <a class="btn" href="/media/certificates/korean-history-certificate.pdf" download>Korean History Proficiency Certificate</a>
   <a class="btn" href="/media/awards/honam-mini-challenge-kisa-grand-prize.jpg" download>Honam Mini Challenge Grand Prize Proof</a>
   <a class="btn" href="/media/awards/honam-security-hackathon-bronze.jpg" download>Honam Security Hackathon Bronze Proof</a>
+  <a class="btn" href="/media/awards/modi-education-certificate-2021.png" download>2021 MODI Education Certificate</a>
   <a class="btn" href="/media/awards/gyeryong-reading-contest-excellence.png" download>Reading Contest Excellence Proof</a>
   <a class="btn" href="/en/awards/ai-image-contest/">Open AI Contest Record</a>
 </div>

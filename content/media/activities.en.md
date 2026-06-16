@@ -13,6 +13,7 @@ image_fit: contain
 {{< portfolio_slider >}}
 /media/profile/personal-profile.jpg|Personal Profile|Main profile image
 /media/awards/jbnu-ai-sw-contest-2026.jpg|2026 JBNU AI.SW Contest|On-site record from the AI/SW presentation and award ceremony
+/media/awards/modi-education-certificate-2021.png|2021 MODI Online Education Camp|Completion and 3rd-place record
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|Honam Mini Challenge Grand Prize|President of Korea Internet & Security Agency award image
 /media/awards/honam-security-hackathon-bronze.jpg|Honam Information Protection Hackathon Bronze Prize|Honam Information Protection Support Center Director Award image
 /media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition 2nd Place|First-year BCG hacking competition result

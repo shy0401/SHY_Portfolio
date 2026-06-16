@@ -26,6 +26,7 @@ AI·SW 경진대회 활동은 보안 분야와 직접 같은 범주의 수상은
 | 2025 호남권 정보보호 특별과정 미니챌린지 | 한국인터넷진흥원장상 대상 |
 | 2025 호남지역 정보보호 해커톤 | 호남정보보호지원센터장상 동상 |
 | 2026 JBNU AI.SW 경진대회 | 전북대학교 AI·SW 경진대회 현장 기록 |
+| 2021 MODI 활용 온라인 교육캠프 | 수료 및 3등 |
 | 2021 BCG 해킹대회 | 은상, 2등 |
 | KISA 해킹대회 | 1등 |
 | KISA 해킹대회 | 3등 |
@@ -38,6 +39,7 @@ AI·SW 경진대회 활동은 보안 분야와 직접 같은 범주의 수상은
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|2025 호남권 정보보호 특별과정 미니챌린지 대상|한국인터넷진흥원장상 수상 기록
 /media/awards/honam-security-hackathon-bronze.jpg|2025 호남지역 정보보호 해커톤 동상|호남정보보호지원센터장상 수상 기록
 /media/awards/jbnu-ai-sw-contest-2026.jpg|2026 JBNU AI.SW 경진대회|전북대학교 AI·SW 분야 발표 및 시상식 현장 기록
+/media/awards/modi-education-certificate-2021.png|2021 MODI 활용 온라인 교육캠프|전북대학교 IT정보공학과 재학 중 참여한 MODI 교육캠프 수료 및 3등 기록
 /media/awards/bcg-hacking-competition-result.png|2021 BCG 해킹대회 은상 2등|1학년 때 참가한 IT정보공학과 BCG 해킹대회 결과
 /media/awards/bcg-hacking-competition-writeup-1.jpg|BCG 해킹대회 풀이 이미지 1|리버싱, 포렌식, XSS, 프록시 문제 풀이 흔적
 /media/awards/bcg-hacking-competition-writeup-2.jpg|BCG 해킹대회 풀이 이미지 2|Path Traversal, 네트워크, 포렌식 문제 풀이 기록
@@ -65,4 +67,5 @@ AI·SW 경진대회 활동은 보안 분야와 직접 같은 범주의 수상은
 - [2021 BCG 해킹대회 2등 기록](/awards/bcg-hacking-competition/)
 - [AI 기반 이미지 생성 콘테스트 통합 기록](/awards/ai-image-contest/)
 - [2026 JBNU AI.SW 경진대회](/awards/jbnu-ai-sw-contest-2026/)
+- [2021 MODI 활용 온라인 교육캠프 수료 및 3등](/awards/modi-education-2021/)
 - [학습 로드맵](/journey/roadmap/)

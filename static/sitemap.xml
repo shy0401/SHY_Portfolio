@@ -109,6 +109,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://shy0401.github.io/SHY_Portfolio/awards/modi-education-2021/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://shy0401.github.io/SHY_Portfolio/projects/</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -272,6 +278,12 @@
   </url>
   <url>
     <loc>https://shy0401.github.io/SHY_Portfolio/en/awards/jbnu-ai-sw-contest-2026/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://shy0401.github.io/SHY_Portfolio/en/awards/modi-education-2021/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

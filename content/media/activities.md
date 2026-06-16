@@ -13,6 +13,7 @@ image_fit: contain
 {{< portfolio_slider >}}
 /media/profile/personal-profile.jpg|개인 프로필|대표 프로필 이미지
 /media/awards/jbnu-ai-sw-contest-2026.jpg|2026 JBNU AI.SW 경진대회|전북대학교 AI·SW 분야 발표 및 시상식 현장 기록
+/media/awards/modi-education-certificate-2021.png|2021 MODI 활용 온라인 교육캠프|수료 및 3등 기록
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|호남권 정보보호 특별과정 미니챌린지 대상|한국인터넷진흥원장상 수상 이미지
 /media/awards/honam-security-hackathon-bronze.jpg|호남지역 정보보호 해커톤 동상|호남정보보호지원센터장상 수상 이미지
 /media/awards/bcg-hacking-competition-result.png|2021 BCG 해킹대회 2등|1학년 때 참가한 IT정보공학과 BCG 해킹대회 결과

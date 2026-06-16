@@ -53,6 +53,7 @@ This portfolio connects cybersecurity awards, cyber monitoring career records, c
 /media/awards/honam-security-hackathon-bronze.jpg|Honam Information Protection Hackathon Bronze Prize|Honam Information Protection Support Center Director Award
 /media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition 2nd Place|First-year security competition achievement
 /media/awards/jbnu-ai-sw-contest-2026.jpg|2026 JBNU AI.SW Contest|JBNU AI/SW activity record
+/media/awards/modi-education-certificate-2021.png|2021 MODI Online Education Camp|Completion and 3rd-place record
 /media/awards/ai-contest-certificate.jpg|Integrated AI-based Image Generation Contest Record|Same competition as the AI Image Contest 3rd-place result
 /media/awards/gyeryong-reading-contest-excellence.png|Reading Contest Excellence Award|Gyeryongdae Service Support Group award
 /media/certificates/craftsman-it.png|Craftsman Information Processing|Certificate proof

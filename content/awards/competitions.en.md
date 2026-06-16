@@ -26,6 +26,7 @@ The AI.SW contest record is not categorized as a cybersecurity award, but it sup
 | 2025 Honam Information Protection Special Course Mini Challenge | Grand Prize, President of Korea Internet & Security Agency |
 | 2025 Honam Information Protection Hackathon | Bronze Prize, Honam Information Protection Support Center Director Award |
 | 2026 JBNU AI.SW Contest | On-site record from the JBNU AI/SW contest |
+| 2021 MODI Online Education Camp | Completion and 3rd place |
 | 2021 BCG Hacking Competition | Silver Prize, 2nd Place |
 | KISA Hacking Competition | 1st Place |
 | KISA Hacking Competition | 3rd Place |
@@ -38,6 +39,7 @@ The AI.SW contest record is not categorized as a cybersecurity award, but it sup
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|2025 Honam Mini Challenge Grand Prize|President of Korea Internet & Security Agency award record
 /media/awards/honam-security-hackathon-bronze.jpg|2025 Honam Information Protection Hackathon Bronze Prize|Honam Information Protection Support Center Director Award record
 /media/awards/jbnu-ai-sw-contest-2026.jpg|2026 JBNU AI.SW Contest|On-site record from the AI/SW presentation and award ceremony
+/media/awards/modi-education-certificate-2021.png|2021 MODI Online Education Camp|Completion and 3rd-place record from the MODI online education camp
 /media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition Silver Prize|First-year BCG hacking competition result
 /media/awards/bcg-hacking-competition-writeup-1.jpg|BCG Writeup Image 1|Reversing, forensics, XSS, and proxy challenge traces
 /media/awards/bcg-hacking-competition-writeup-2.jpg|BCG Writeup Image 2|Path Traversal, network, and forensics challenge records
@@ -65,4 +67,5 @@ The AI.SW contest record is not categorized as a cybersecurity award, but it sup
 - [2021 BCG Hacking Competition Record](/en/awards/bcg-hacking-competition/)
 - [AI-based Image Generation Contest Record](/en/awards/ai-image-contest/)
 - [2026 JBNU AI.SW Contest](/en/awards/jbnu-ai-sw-contest-2026/)
+- [2021 MODI Online Education Camp](/en/awards/modi-education-2021/)
 - [Learning Roadmap](/en/journey/roadmap/)
