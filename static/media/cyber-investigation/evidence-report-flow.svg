@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1400" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08101F"/>
+      <stop offset="1" stop-color="#172338"/>
+    </linearGradient>
+    <filter id="shadow3" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="860" rx="34" fill="url(#bg3)"/>
+  <rect x="70" y="70" width="1260" height="720" rx="30" fill="#0D1A2D" fill-opacity="0.86" stroke="#3D79C4" stroke-opacity="0.58" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="112" y="146" fill="#8FC6FF" font-size="27" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">EVIDENCE TO REPORT FLOW</text>
+  <text x="112" y="198" fill="#FFFFFF" font-size="45" font-family="Segoe UI, Pretendard, sans-serif" font-weight="850">사이버수사형 분석 보고 흐름</text>
+  <text x="112" y="242" fill="#C8DDF5" font-size="22" font-family="Segoe UI, Pretendard, sans-serif">웹해킹·리버싱·포렌식 활동을 하나의 사건 흐름으로 정리하는 방식입니다.</text>
+
+  <rect x="112" y="310" width="244" height="150" rx="22" fill="#122B4B" stroke="#5BA8FF" stroke-opacity="0.5"/>
+  <text x="140" y="366" fill="#FFFFFF" font-size="26" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">1. 수집</text>
+  <text x="140" y="408" fill="#C8DDF5" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">로그 · 파일 · 화면</text>
+
+  <path d="M380 386H466" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M454 370L470 386L454 402" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="490" y="310" width="244" height="150" rx="22" fill="#122B4B" stroke="#5BA8FF" stroke-opacity="0.5"/>
+  <text x="518" y="366" fill="#FFFFFF" font-size="26" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">2. 무결성</text>
+  <text x="518" y="408" fill="#C8DDF5" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">해시 · 원본/사본</text>
+
+  <path d="M758 386H844" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M832 370L848 386L832 402" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="868" y="310" width="244" height="150" rx="22" fill="#122B4B" stroke="#5BA8FF" stroke-opacity="0.5"/>
+  <text x="896" y="366" fill="#FFFFFF" font-size="26" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">3. 분석</text>
+  <text x="896" y="408" fill="#C8DDF5" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">취약점 · 흔적 · 행위</text>
+
+  <path d="M1136 386H1222" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1210 370L1226 386L1210 402" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="112" y="540" width="244" height="150" rx="22" fill="#122B4B" stroke="#5BA8FF" stroke-opacity="0.5"/>
+  <text x="140" y="596" fill="#FFFFFF" font-size="26" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">4. 타임라인</text>
+  <text x="140" y="638" fill="#C8DDF5" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">시간순 사건 재구성</text>
+
+  <path d="M380 616H466" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M454 600L470 616L454 632" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="490" y="540" width="244" height="150" rx="22" fill="#122B4B" stroke="#5BA8FF" stroke-opacity="0.5"/>
+  <text x="518" y="596" fill="#FFFFFF" font-size="26" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">5. 판단</text>
+  <text x="518" y="638" fill="#C8DDF5" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">근거와 추정 분리</text>
+
+  <path d="M758 616H844" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M832 600L848 616L832 632" stroke="#5BA8FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="868" y="540" width="244" height="150" rx="22" fill="#122B4B" stroke="#5BA8FF" stroke-opacity="0.5"/>
+  <text x="896" y="596" fill="#FFFFFF" font-size="26" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">6. 보고</text>
+  <text x="896" y="638" fill="#C8DDF5" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">요약 · 증거 · 대응</text>
+
+  <text x="112" y="744" fill="#8EBBEA" font-size="20" font-family="Segoe UI, Pretendard, sans-serif">활동 연결: BCG 해킹대회 풀이 이미지, KISA/호남권 정보보호 활동, 보안관제병 경력 기록</text>
+</svg>

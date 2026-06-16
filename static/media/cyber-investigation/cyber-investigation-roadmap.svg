@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1400" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#DDEBFF"/>
+    </linearGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#1E3A5C" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="860" rx="34" fill="url(#bg2)"/>
+  <rect x="72" y="72" width="1256" height="716" rx="30" fill="#FFFFFF" fill-opacity="0.72" stroke="#9EC7F7" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="112" y="146" fill="#1B5FA7" font-size="27" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">CYBER INVESTIGATION ROADMAP</text>
+  <text x="112" y="198" fill="#0D223A" font-size="45" font-family="Segoe UI, Pretendard, sans-serif" font-weight="850">사이버수사대 지망 준비 로드맵</text>
+  <text x="112" y="242" fill="#48627F" font-size="22" font-family="Segoe UI, Pretendard, sans-serif">경찰순경시험 준비와 보안 실무 역량을 함께 관리하는 단계형 계획입니다.</text>
+
+  <path d="M176 386H1214" stroke="#B6D4F7" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="176" cy="386" r="34" fill="#166FE5"/>
+  <circle cx="435" cy="386" r="34" fill="#166FE5"/>
+  <circle cx="694" cy="386" r="34" fill="#166FE5"/>
+  <circle cx="953" cy="386" r="34" fill="#166FE5"/>
+  <circle cx="1212" cy="386" r="34" fill="#166FE5"/>
+  <text x="166" y="397" fill="white" font-size="28" font-family="Segoe UI, Pretendard, sans-serif" font-weight="900">1</text>
+  <text x="425" y="397" fill="white" font-size="28" font-family="Segoe UI, Pretendard, sans-serif" font-weight="900">2</text>
+  <text x="684" y="397" fill="white" font-size="28" font-family="Segoe UI, Pretendard, sans-serif" font-weight="900">3</text>
+  <text x="943" y="397" fill="white" font-size="28" font-family="Segoe UI, Pretendard, sans-serif" font-weight="900">4</text>
+  <text x="1202" y="397" fill="white" font-size="28" font-family="Segoe UI, Pretendard, sans-serif" font-weight="900">5</text>
+
+  <rect x="108" y="454" width="230" height="178" rx="22" fill="#F4F8FF" stroke="#B8D5F6"/>
+  <text x="132" y="510" fill="#0D223A" font-size="24" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">응시 조건</text>
+  <text x="132" y="550" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">TOEIC · 한국사</text>
+  <text x="132" y="584" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">인증 완료</text>
+
+  <rect x="367" y="454" width="230" height="178" rx="22" fill="#F4F8FF" stroke="#B8D5F6"/>
+  <text x="391" y="510" fill="#0D223A" font-size="24" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">1차 필기</text>
+  <text x="391" y="550" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">형법 · 헌법</text>
+  <text x="391" y="584" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">경찰학개론</text>
+
+  <rect x="626" y="454" width="230" height="178" rx="22" fill="#F4F8FF" stroke="#B8D5F6"/>
+  <text x="650" y="510" fill="#0D223A" font-size="24" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">2차 체력</text>
+  <text x="650" y="550" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">체력 루틴</text>
+  <text x="650" y="584" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">기록 관리</text>
+
+  <rect x="885" y="454" width="230" height="178" rx="22" fill="#F4F8FF" stroke="#B8D5F6"/>
+  <text x="909" y="510" fill="#0D223A" font-size="24" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">3차 면접</text>
+  <text x="909" y="550" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">지원동기</text>
+  <text x="909" y="584" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">직무 이해</text>
+
+  <rect x="1144" y="454" width="230" height="178" rx="22" fill="#F4F8FF" stroke="#B8D5F6"/>
+  <text x="1168" y="510" fill="#0D223A" font-size="24" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">사이버수사</text>
+  <text x="1168" y="550" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">증거 · 로그</text>
+  <text x="1168" y="584" fill="#45617E" font-size="19" font-family="Segoe UI, Pretendard, sans-serif">보고서 역량</text>
+
+  <text x="112" y="716" fill="#476A90" font-size="21" font-family="Segoe UI, Pretendard, sans-serif">핵심 방향: 법 과목 기반 판단력 + 보안 기술 분석 + 증거 보존 + 명확한 보고/면접 표현</text>
+</svg>

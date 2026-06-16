@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061225"/>
+      <stop offset="1" stop-color="#0E3A68"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 80) rotate(142) scale(540 620)">
+      <stop stop-color="#4FA3FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4FA3FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="860" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="860" rx="34" fill="url(#glow)"/>
+  <rect x="70" y="70" width="1260" height="720" rx="32" fill="#081B35" fill-opacity="0.78" stroke="#66A8FF" stroke-opacity="0.48" stroke-width="2" filter="url(#shadow)"/>
+  <text x="112" y="144" fill="#9DCBFF" font-size="28" font-family="Segoe UI, Pretendard, sans-serif" font-weight="700">POLICE EXAM READINESS</text>
+  <text x="112" y="196" fill="#FFFFFF" font-size="46" font-family="Segoe UI, Pretendard, sans-serif" font-weight="850">경찰순경시험 응시 조건 및 준비 현황</text>
+  <text x="112" y="242" fill="#D7E8FF" font-size="23" font-family="Segoe UI, Pretendard, sans-serif" font-weight="500">사이버수사대 지망 진로에 맞춰 인증 조건, 1차 필기, 2·3차 전형을 분리해 관리합니다.</text>
+
+  <rect x="112" y="302" width="360" height="190" rx="24" fill="#FFFFFF" fill-opacity="0.10" stroke="#7AB8FF" stroke-opacity="0.42"/>
+  <circle cx="154" cy="350" r="24" fill="#23C483"/>
+  <path d="M142 350L151 359L168 340" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="112" y="418" fill="#FFFFFF" font-size="29" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">영어 인증 완료</text>
+  <text x="112" y="456" fill="#CDE3FF" font-size="22" font-family="Segoe UI, Pretendard, sans-serif">TOEIC 650 보유</text>
+
+  <rect x="520" y="302" width="360" height="190" rx="24" fill="#FFFFFF" fill-opacity="0.10" stroke="#7AB8FF" stroke-opacity="0.42"/>
+  <circle cx="562" cy="350" r="24" fill="#23C483"/>
+  <path d="M550 350L559 359L576 340" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="520" y="418" fill="#FFFFFF" font-size="29" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">한국사 인증 완료</text>
+  <text x="520" y="456" fill="#CDE3FF" font-size="22" font-family="Segoe UI, Pretendard, sans-serif">한국사검정능력시험 인증서 보유</text>
+
+  <rect x="928" y="302" width="360" height="190" rx="24" fill="#FFFFFF" fill-opacity="0.10" stroke="#7AB8FF" stroke-opacity="0.42"/>
+  <circle cx="970" cy="350" r="24" fill="#F6B443"/>
+  <text x="962" y="360" fill="#091C34" font-size="26" font-family="Segoe UI, Pretendard, sans-serif" font-weight="900">1</text>
+  <text x="928" y="418" fill="#FFFFFF" font-size="29" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">1차 필기 준비</text>
+  <text x="928" y="456" fill="#CDE3FF" font-size="22" font-family="Segoe UI, Pretendard, sans-serif">형법 · 헌법 · 경찰학개론</text>
+
+  <rect x="112" y="536" width="360" height="156" rx="24" fill="#FFFFFF" fill-opacity="0.08" stroke="#7AB8FF" stroke-opacity="0.32"/>
+  <text x="140" y="594" fill="#FFFFFF" font-size="27" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">2차 체력</text>
+  <text x="140" y="635" fill="#CDE3FF" font-size="21" font-family="Segoe UI, Pretendard, sans-serif">기초 체력 · 루틴 · 기록 관리</text>
+
+  <rect x="520" y="536" width="360" height="156" rx="24" fill="#FFFFFF" fill-opacity="0.08" stroke="#7AB8FF" stroke-opacity="0.32"/>
+  <text x="548" y="594" fill="#FFFFFF" font-size="27" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">3차 면접</text>
+  <text x="548" y="635" fill="#CDE3FF" font-size="21" font-family="Segoe UI, Pretendard, sans-serif">자기소개 · 지원동기 · 직무 이해</text>
+
+  <rect x="928" y="536" width="360" height="156" rx="24" fill="#FFFFFF" fill-opacity="0.08" stroke="#7AB8FF" stroke-opacity="0.32"/>
+  <text x="956" y="594" fill="#FFFFFF" font-size="27" font-family="Segoe UI, Pretendard, sans-serif" font-weight="800">사이버수사 연결</text>
+  <text x="956" y="635" fill="#CDE3FF" font-size="21" font-family="Segoe UI, Pretendard, sans-serif">보안 분석 · 증거 정리 · 보고 역량</text>
+
+  <text x="112" y="742" fill="#94BFEF" font-size="18" font-family="Segoe UI, Pretendard, sans-serif">※ 최종 응시 요건과 세부 기준은 매년 경찰청 채용공고 및 원서접수 공고 기준으로 확인합니다.</text>
+</svg>
