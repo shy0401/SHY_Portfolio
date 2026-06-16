@@ -548,6 +548,22 @@ a {
   padding: clamp(0.45rem, 1.4vw, 1rem);
 }
 
+.section-hero-image.image-natural,
+.single-hero-image.image-natural {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--panel-solid) 92%, transparent), color-mix(in srgb, var(--bg-soft) 94%, transparent)),
+    radial-gradient(circle at 14% 8%, color-mix(in srgb, var(--primary) 8%, transparent), transparent 30%);
+}
+
+.section-hero-image.image-natural img,
+.single-hero-image.image-natural img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  display: block;
+}
+
 .section-hero-overlay,
 .single-hero-overlay,
 .content-overlay {

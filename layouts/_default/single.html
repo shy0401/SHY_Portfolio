@@ -4,7 +4,12 @@
   {{ with .Params.image }}
   {{ $hero := . }}
   {{ $heroSrc := cond (or (hasPrefix $hero "http://") (hasPrefix $hero "https://")) $hero ($hero | relURL) }}
-  {{ $fitClass := cond (eq $.Params.image_fit "contain") " image-contain" "" }}
+  {{ $fitClass := "" }}
+  {{ if eq $.Params.image_fit "contain" }}
+    {{ $fitClass = " image-contain" }}
+  {{ else if eq $.Params.image_fit "natural" }}
+    {{ $fitClass = " image-natural" }}
+  {{ end }}
   <div class="single-hero-image{{ $fitClass }}">
     <img src="{{ $heroSrc }}" alt="{{ $.Title }}">
     {{ if not $.Params.hide_image_overlay }}

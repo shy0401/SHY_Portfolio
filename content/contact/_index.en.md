@@ -2,11 +2,13 @@
 title: Contact
 date: 2026-04-19
 draft: false
-description: "Hub for social links and downloadable files"
-image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80"
+description: "GitHub, Instagram, JBNU School of Computer & AI links, and location information"
+image: "/media/contact/github-profile-overview.png"
+image_fit: natural
+hide_image_overlay: true
 ---
 
-The contact section separates external links and downloadable materials for easier access.
+The contact section focuses on public profile links, social channels, the JBNU School of Computer & AI page, and location information.
 
 ## Quick Links
 
@@ -25,7 +27,6 @@ The contact section separates external links and downloadable materials for easi
   </a>
 </div>
 
-## Detail Pages
+## Detail Page
 
-- [Social Links](/en/contact/social-links/)
-- [Downloads](/en/contact/downloads/)
+- [Social Links and Map](/en/contact/social-links/)

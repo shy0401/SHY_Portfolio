@@ -145,12 +145,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shy0401.github.io/SHY_Portfolio/contact/downloads/</loc>
-    <lastmod>2026-04-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://shy0401.github.io/SHY_Portfolio/search/</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -296,12 +290,6 @@
   </url>
   <url>
     <loc>https://shy0401.github.io/SHY_Portfolio/en/contact/social-links/</loc>
-    <lastmod>2026-04-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://shy0401.github.io/SHY_Portfolio/en/contact/downloads/</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

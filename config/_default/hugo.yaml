@@ -230,11 +230,6 @@ languages:
           parent: "contact"
           pageRef: "/contact/social-links"
           weight: 81
-        - name: "자료 다운로드"
-          parent: "contact"
-          pageRef: "/contact/downloads"
-          weight: 82
-
   en:
     languageCode: "en-us"
     languageName: "English"
@@ -352,7 +347,3 @@ languages:
           parent: "contact"
           pageRef: "/contact/social-links"
           weight: 81
-        - name: "Downloads"
-          parent: "contact"
-          pageRef: "/contact/downloads"
-          weight: 82

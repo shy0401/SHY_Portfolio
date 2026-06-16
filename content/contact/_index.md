@@ -2,11 +2,13 @@
 title: 연락처
 date: 2026-04-19
 draft: false
-description: "소셜 링크와 다운로드 허브"
-image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80"
+description: "GitHub, Instagram, 전북대학교 컴퓨터인공지능학부 링크와 위치 정보"
+image: "/media/contact/github-profile-overview.png"
+image_fit: natural
+hide_image_overlay: true
 ---
 
-연락처 섹션은 외부 링크와 자료 다운로드를 분리해 제공합니다.
+연락처 섹션은 외부에서 바로 확인할 수 있는 GitHub, Instagram, 전북대학교 컴퓨터인공지능학부 링크와 위치 정보를 중심으로 구성했습니다.
 
 ## 빠른 링크
 
@@ -27,5 +29,4 @@ image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fi
 
 ## 상세 페이지
 
-- [소셜 링크](/contact/social-links/)
-- [자료 다운로드](/contact/downloads/)
+- [소셜 링크 및 지도](/contact/social-links/)

@@ -1,10 +1,12 @@
 ---
-title: Social Links
+title: Social Links and Map
 date: 2026-04-19
 draft: false
 weight: 10
-description: "GitHub, Instagram, JBNU link, and location map"
-image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+description: "GitHub, Instagram, JBNU School of Computer & AI link, and Jeonbuk National University map"
+image: "/media/contact/github-profile-overview.png"
+image_fit: natural
+hide_image_overlay: true
 ---
 
 ## Social and External Links

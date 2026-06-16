@@ -1,10 +1,12 @@
 ---
-title: 소셜 링크
+title: 소셜 링크 및 지도
 date: 2026-04-19
 draft: false
 weight: 10
-description: "GitHub, Instagram, 전북대학교 링크 및 지도"
-image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+description: "GitHub, Instagram, 전북대학교 컴퓨터인공지능학부 링크와 전북대학교 위치"
+image: "/media/contact/github-profile-overview.png"
+image_fit: natural
+hide_image_overlay: true
 ---
 
 ## 소셜 및 외부 링크
@@ -24,7 +26,7 @@ image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fi
   </a>
 </div>
 
-## 지도
+## 위치
 
 <div class="map-shell">
 <iframe
