@@ -18,15 +18,15 @@ Security competitions and field-style challenges are important checkpoints for m
 
 ## Key Achievements
 
-| Category | Result | Meaning |
-| --- | --- | --- |
-| 2025 Honam Information Protection Special Course Mini Challenge | Grand Prize, President of Korea Internet & Security Agency | Field-style achievement across vulnerability analysis, problem solving, and result organization |
-| 2025 Honam Information Protection Hackathon | Bronze Prize, Honam Information Protection Support Center Director Award | Verified teamwork-based problem solving in a cybersecurity hackathon environment |
-| 2021 BCG Hacking Competition | Silver Prize, 2nd Place | Early first-year achievement that shaped my learning direction across reversing, forensics, network, and web vulnerabilities |
-| KISA Hacking Competition | 1st Place | Strengthened practical speed and accuracy in challenge solving |
-| KISA Hacking Competition | 3rd Place | Improved reproducibility and evidence-based writeups through repeated participation |
-| 2025 AI-based Image Generation Contest | 3rd Place | Demonstrated prompt planning and visual storytelling with generative AI |
-| Gyeryongdae Service Support Group Reading Contest | Excellence Award | Expanded structured writing and persuasive communication skills |
+| Category | Result |
+| --- | --- |
+| 2025 Honam Information Protection Special Course Mini Challenge | Grand Prize, President of Korea Internet & Security Agency |
+| 2025 Honam Information Protection Hackathon | Bronze Prize, Honam Information Protection Support Center Director Award |
+| 2021 BCG Hacking Competition | Silver Prize, 2nd Place |
+| KISA Hacking Competition | 1st Place |
+| KISA Hacking Competition | 3rd Place |
+| 2025 AI-based Image Generation Contest | 3rd Place |
+| Gyeryongdae Service Support Group Reading Contest | Excellence Award |
 
 ## Proof Images
 
