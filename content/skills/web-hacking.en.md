@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 10
 description: "Roadmap for web vulnerability reproduction, impact assessment, and remediation priority"
-image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80"
+image: "/media/awards/bcg-hacking-competition-writeup-2.jpg"
 tags:
   - OWASP
   - Web Security
@@ -14,17 +14,39 @@ tags:
 
 ## Overview
 
-My web hacking study does not stop at finding a vulnerability. I focus on explaining when it is reproducible, how it affects the service, and what remediation should be prioritized. The main reference frame is OWASP Top 10 and practical web application structure.
+My web hacking study does not stop at finding a vulnerability. I focus on explaining when it is reproducible, how it affects the service, and what remediation should be prioritized. The main reference frame is OWASP Top 10, HTTP request/response structure, auth/session flow, input validation, and path-handling issues.
+
+In the 2021 BCG Hacking Competition, which I joined during my first year, I solved web-related challenges such as XSS, Path Traversal, proxy/request manipulation, and file-path analysis. I now reorganize those early records into the workflow `observation → hypothesis → reproduction → impact → response`.
 
 ## Learning Roadmap
 
 | Stage | Topic | Practice |
 | --- | --- | --- |
 | Stage 1 | HTTP basics | Request methods, status codes, headers, cookies, sessions |
-| Stage 2 | Input validation | SQL Injection, XSS, Command Injection reproduction |
-| Stage 3 | Auth and access control | Login bypass, session fixation, missing authorization checks |
-| Stage 4 | File handling | Upload extension validation, path traversal, download access control |
-| Stage 5 | Reporting | Reproduction condition, impact, remediation, and priority |
+| Stage 2 | Browser-based analysis | Inspect DOM, console, and network flow with developer tools |
+| Stage 3 | Input validation | SQL Injection, Reflected/Stored XSS, and Command Injection reproduction |
+| Stage 4 | Auth and access control | Login bypass, session fixation, missing authorization checks |
+| Stage 5 | File and path handling | Upload extension validation, Path Traversal, and download access control |
+| Stage 6 | Proxy/request manipulation | Compare server behavior by changing Referer, Cookie, Query String, and Body values |
+| Stage 7 | Reporting | Reproduction condition, impact, remediation, and priority |
+
+## Real Activity Images
+
+{{< portfolio_slider >}}
+/media/awards/bcg-hacking-competition-writeup-2.jpg|BCG Web Vulnerability Writeup Screen|Record of checking developer tools and request flow while solving Practice XSS, Path Traversal, and Network challenges
+/media/awards/bcg-hacking-competition-writeup-1.jpg|BCG Challenge Writeup Notes|Activity image covering XSS, proxy request manipulation, and file-path access challenges
+/media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition Result|First-year competition result: silver prize and 2nd place by points
+{{< /portfolio_slider >}}
+
+## Web Hacking Topics Connected From Real Activities
+
+| Activity/Challenge | Clue Checked | Current Learning Extension |
+| --- | --- | --- |
+| Network_1 - Practice_XSS | Element/script inspection through browser developer tools | Document the difference between Reflected XSS and DOM flow |
+| Network_2 - Path Traversal | URL path and exposed file-list behavior | Expand into path normalization, authorization checks, and download access checklist |
+| Network_5 - New_Path_Traversal | Request headers and `url` parameter manipulation | Analyze Referer, Query String, and server-side file access together |
+| Proxy-related challenge | Server response changes after request-value manipulation | Extend into proxy-based request tampering and response-log notes |
+| Competition writeups | Challenge type classification and direction choice under time pressure | Re-document field-style challenges around reproducible conditions |
 
 ## Current Routine
 
@@ -33,12 +55,25 @@ My web hacking study does not stop at finding a vulnerability. I focus on explai
 - Build small vulnerable examples and compare behavior before and after fixes
 - Use OWASP, PortSwigger Web Security Academy, and MDN as external references for terminology and remediation logic
 
+## Detailed Practice Checklist
+
+| Category | Question | Record Format |
+| --- | --- | --- |
+| Input | Are special characters, scripts, or SQL-like payloads filtered? | Capture input, response, and error messages together |
+| Authentication | Are pre-login and post-login access boundaries clear? | Compare session cookies and accessible URLs |
+| Authorization | Can another user's resource be accessed? | Organize request parameters and response status codes |
+| Path handling | How does the server react to `../`, absolute paths, or filename changes? | Separate request URL, server response, and exposed file record |
+| XSS | Is user input reflected in an HTML/JS context? | Record DOM location, execution result, and defense method |
+| Remediation | Is there safe validation, encoding, and authorization, not just blocking? | Record vulnerable code and improvement direction together |
+
 ## Progress
 
 - Structured a PoC-based reproduction template
 - Reflected analysis flow in my web security project page
 - Strengthened the ability to classify challenge types through KISA and security competition experience
 - Practiced explaining issues from service-risk and remediation-priority perspectives
+- Connected BCG competition activity images to XSS, Path Traversal, and proxy request manipulation learning records
+- Practiced rewriting web vulnerability findings in an investigation-report style alongside police exam preparation
 
 ## Next Plan
 
@@ -46,9 +81,11 @@ My web hacking study does not stop at finding a vulnerability. I focus on explai
 - Add articles with `attack reproduction + remediation code + checklist`
 - Expand the web security project so readers can inspect analysis evidence from portfolio cards
 - Add timeline-based reconstruction of web logs from a cyber investigation perspective
+- Continue adding problem-type analysis notes based on actual activity images like the BCG writeups
 
 ## Related Link
 
 - [Web Security Project](/en/projects/web-security-lab/)
 - [Cyber Investigation Preparation](/en/skills/cyber-investigation/)
 - [Learning Roadmap](/en/journey/roadmap/)
+- [2021 BCG Hacking Competition Record](/en/awards/bcg-hacking-competition/)
