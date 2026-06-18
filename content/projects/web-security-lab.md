@@ -16,14 +16,12 @@ tags:
 
 학습용 웹 서비스와 CTF/대회형 문제를 대상으로 주요 웹 취약점을 재현하고, 공격 경로를 분석해 대응 우선순위를 제시하는 프로젝트입니다. 단순히 “취약점 발견”에 머물지 않고 요청 흐름, 재현 조건, 영향 범위, 대응 방향을 한 번에 설명하는 보고형 산출물을 만드는 데 초점을 두고 있습니다.
 
-이 프로젝트는 XSS, Path Traversal, 프록시/요청 조작 문제를 OWASP ZAP, 브라우저 개발자 도구, Wireshark 흐름과 연결해 구성했습니다.
+이 프로젝트는 XSS, Path Traversal, 프록시/요청 조작 문제를 OWASP ZAP과 브라우저 개발자 도구 흐름으로 정리했습니다.
 
 ## 분석 흐름 이미지
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP 웹 취약점 분석 화면|프록시, 크롤링, 취약점 탐지 흐름을 프로젝트 분석 절차와 연결
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark HTTP 흐름 분석 화면|요청/응답과 세션 흐름을 패킷 관점에서 검토
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 화면|웹 공격 이후 남는 파일·로그 흔적을 포렌식 프로젝트와 연결
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP 웹 취약점 분석 화면
 {{< /portfolio_slider >}}
 
 ## 수행 내용

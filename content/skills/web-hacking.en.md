@@ -33,9 +33,7 @@ I organize XSS, Path Traversal, proxy/request manipulation, and file-path analys
 ## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen|Spidering, request/response inspection, and vulnerability scanning flow
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Packet Analysis Screen|HTTP requests, responses, sessions, and packet-level flow
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Exploration Screen|Post-attack files and logs connected with forensic investigation
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen
 {{< /portfolio_slider >}}
 
 ## Web Hacking Topics Connected From Real Activities
@@ -72,7 +70,7 @@ https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Explor
 - Reflected analysis flow in my web security project page
 - Strengthened the ability to classify challenge types through KISA and security competition experience
 - Practiced explaining issues from service-risk and remediation-priority perspectives
-- Connected tool-based analysis routines to XSS, Path Traversal, and proxy request manipulation learning records
+- Connected OWASP ZAP-based analysis routines to XSS, Path Traversal, and proxy request manipulation learning records
 - Practiced rewriting web vulnerability findings in an investigation-report style alongside police exam preparation
 
 ## Next Plan

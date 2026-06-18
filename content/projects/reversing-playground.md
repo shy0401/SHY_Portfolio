@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 30
 role: "정적·동적 분석 루틴 학습 · 분석 노트 표준화"
-image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg"
+image: "/media/tools/ghidra-codebrowser.png"
 tags:
   - Reversing
   - Binary Analysis
@@ -21,9 +21,7 @@ Ghidra 기반 정적 분석 흐름으로 입력 길이, 성공 문자열, 파일
 ## 분석 흐름 이미지
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분석 화면|디컴파일 결과, 함수 흐름, 문자열 단서 정리
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 파일 증거 탐색 화면|실행 파일 분석 후 남는 흔적을 포렌식 흐름과 연결
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 통신 흔적 확인 화면|분석 대상 프로그램의 네트워크 행위를 함께 검토하는 도구 화면
+/media/tools/ghidra-codebrowser.png|Ghidra 정적 분석 화면
 {{< /portfolio_slider >}}
 
 ## 수행 내용

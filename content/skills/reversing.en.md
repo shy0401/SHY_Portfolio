@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 20
 description: "Roadmap for static/dynamic binary analysis and behavior understanding"
-image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg"
+image: "/media/tools/ghidra-codebrowser.png"
 tags:
   - Reversing
   - Binary Analysis
@@ -33,9 +33,7 @@ I organize input length, execution output strings, and internal file structure a
 ## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Functions, decompiled code, and string clues
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy File Evidence Screen|Executable analysis connected with file artifacts
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Behavior Screen|Communication artifacts from analyzed programs
+/media/tools/ghidra-codebrowser.png|Ghidra Static Analysis Screen
 {{< /portfolio_slider >}}
 
 ## Reversing Topics Connected From Real Activities

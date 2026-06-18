@@ -25,7 +25,7 @@ tags:
 /media/cyber-investigation/cyber-investigation-roadmap.svg|사이버수사대 지망 준비 로드맵|응시 조건, 필기, 체력, 면접, 사이버수사 역량을 단계별로 정리
 /media/cyber-investigation/evidence-report-flow.svg|사이버수사형 분석 보고 흐름|증거 수집부터 무결성, 분석, 타임라인, 판단, 보고까지 연결
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|KISA 미니챌린지 대상|정보보호 문제 해결 경험을 실전형 사이버 대응 역량으로 연결
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 분석 화면|웹해킹·포렌식·네트워크 흔적을 사건 흐름 정리 훈련으로 연결
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 분석 화면
 {{< /portfolio_slider >}}
 
 ## 준비 로드맵

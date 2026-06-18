@@ -16,14 +16,12 @@ tags:
 
 This project reproduces key vulnerabilities in training web services and CTF-style challenges, then translates attack-path analysis into practical remediation priorities. The focus is not just finding vulnerabilities, but explaining request flow, reproduction conditions, impact scope, and response direction in one report-style output.
 
-The project connects XSS, Path Traversal, and proxy/request manipulation scenarios with OWASP ZAP, browser developer tools, and Wireshark-style request analysis.
+The project organizes XSS, Path Traversal, and proxy/request manipulation scenarios with OWASP ZAP and browser developer-tool workflows.
 
 ## Analysis Flow Images
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen|Proxying, crawling, and vulnerability detection workflows
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark HTTP Flow Analysis Screen|Requests, responses, and session flow at the packet level
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Exploration Screen|Web attack traces connected with forensic investigation
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen
 {{< /portfolio_slider >}}
 
 ## Responsibilities

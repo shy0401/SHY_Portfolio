@@ -21,9 +21,7 @@ tags:
 ## 분석 흐름 이미지
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 화면|증거 이미지와 파일 시스템을 탐색하고 타임라인으로 정리
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 포렌식 화면|통신 흔적과 이벤트 시간을 패킷 단위로 확인
-/media/cyber-investigation/evidence-report-flow.svg|증거 수집부터 보고까지의 흐름|포렌식 자동화 파이프라인이 목표로 하는 증거-보고 연결 구조
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 화면
 {{< /portfolio_slider >}}
 
 ## 수행 내용

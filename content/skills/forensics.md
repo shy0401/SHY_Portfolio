@@ -33,9 +33,7 @@ tags:
 ## 도구 기반 학습 이미지
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 분석 화면|증거 이미지, 파일 시스템, 타임라인, 키워드 검색 확인
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 포렌식 화면|패킷 단위 통신 흐름과 이벤트 시간 확인
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분석 화면|실행 파일 구조와 문자열 단서를 포렌식 흔적으로 연결
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 분석 화면
 {{< /portfolio_slider >}}
 
 ## 실제 활동에서 연결한 포렌식 주제
@@ -74,7 +72,7 @@ https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분
 - 포렌식 자동화 프로젝트에 절차 반영
 - 수상/경력 증빙 자료를 포트폴리오 내에서 파일 경로와 설명으로 분리 관리
 - 보안관제 경험 기록과 연결해 탐지 이벤트가 조사 자료로 이어지는 흐름을 정리
-- Autopsy, Wireshark, Ghidra 등 분석 도구 기반 루틴을 증거 탐색과 분석 근거 정리 과정에 연결
+- Autopsy 기반 분석 루틴을 증거 탐색과 분석 근거 정리 과정에 연결
 - 파일 시그니처와 Hex 분석 흐름을 포렌식 학습 페이지에 구체적으로 정리
 
 ## 앞으로의 계획

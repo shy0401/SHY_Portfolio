@@ -21,9 +21,7 @@ The project is based on evidence exploration, timeline reconstruction, and file-
 ## Analysis Flow Images
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen|Evidence images, file systems, and timeline data
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Forensics Screen|Communication traces and event timing at the packet level
-/media/cyber-investigation/evidence-report-flow.svg|Evidence-to-Report Flow|The evidence-report connection structure targeted by the forensic automation pipeline
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen
 {{< /portfolio_slider >}}
 
 ## Responsibilities

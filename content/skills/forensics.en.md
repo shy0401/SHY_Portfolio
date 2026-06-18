@@ -33,9 +33,7 @@ I study file signatures, hex values, image structure, and hidden-string clues th
 ## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen|Evidence images, file systems, timelines, and keyword searches
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Forensics Screen|Communication traces and event time at the packet level
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Executable structure and string clues connected with forensic artifacts
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen
 {{< /portfolio_slider >}}
 
 ## Forensics Topics Connected From Real Activities
@@ -74,7 +72,7 @@ https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Ana
 - Applied the workflow to the forensic automation project
 - Managed award/career proof files in the portfolio with clear paths and explanations
 - Connected security monitoring experience with the flow from detection event to investigation material
-- Connected tool-based analysis routines to evidence exploration and reasoning records
+- Connected Autopsy-based analysis routines to evidence exploration and reasoning records
 - Organized file-signature and hex-analysis workflow concretely in the forensics page
 
 ## Next Plan

@@ -33,9 +33,7 @@ tags:
 ## 도구 기반 학습 이미지
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP 웹 취약점 분석 화면|스파이더링, 요청/응답 확인, 취약점 스캔 흐름 학습
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 패킷 분석 화면|HTTP 요청, 응답, 세션 흐름을 네트워크 레벨에서 확인하는 학습
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 화면|웹 공격 이후 남는 파일·로그 흔적을 포렌식 관점으로 연결
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP 웹 취약점 분석 화면
 {{< /portfolio_slider >}}
 
 ## 실제 활동에서 연결한 웹해킹 주제
@@ -72,7 +70,7 @@ https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 �
 - 웹 보안 프로젝트 페이지에 분석 흐름 반영
 - KISA/정보보호 대회 경험을 통해 제한 시간 안에서 문제 유형을 분류하는 감각 강화
 - 보안 문제를 단순 풀이가 아니라 서비스 위험도 관점으로 설명하는 연습 진행
-- OWASP ZAP, Wireshark 등 도구 기반 분석 흐름을 XSS, Path Traversal, 프록시 요청 조작 학습과 연결
+- OWASP ZAP 기반 분석 흐름을 XSS, Path Traversal, 프록시 요청 조작 학습과 연결
 - 경찰순경시험 준비와 병행하며 웹 취약점 분석 결과를 사이버수사 보고서형 문장으로 정리하는 연습 진행
 
 ## 앞으로의 계획

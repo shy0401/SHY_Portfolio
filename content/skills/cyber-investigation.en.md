@@ -25,7 +25,7 @@ I have completed the English and Korean history proof requirements and am now fo
 /media/cyber-investigation/cyber-investigation-roadmap.svg|Cyber Investigation Preparation Roadmap|Step-by-step plan connecting requirements, written exam, physical test, interview, and cyber investigation skills
 /media/cyber-investigation/evidence-report-flow.svg|Evidence-to-Report Flow|Workflow from collection and integrity verification to analysis, timeline, judgment, and reporting
 /media/awards/honam-mini-challenge-kisa-grand-prize.jpg|KISA Mini Challenge Grand Prize|Field-style cybersecurity problem-solving experience connected to cyber response capability
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Analysis Screen|Web, forensics, and network traces connected to incident-flow documentation
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Analysis Screen
 {{< /portfolio_slider >}}
 
 ## Preparation Roadmap

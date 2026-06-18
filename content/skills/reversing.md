@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 20
 description: "바이너리 정적/동적 분석과 악성 행위 이해를 위한 학습 로드맵"
-image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg"
+image: "/media/tools/ghidra-codebrowser.png"
 tags:
   - Reversing
   - Binary Analysis
@@ -33,9 +33,7 @@ tags:
 ## 도구 기반 학습 이미지
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분석 화면|함수 목록, 디컴파일 결과, 문자열 단서 확인
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 파일 증거 탐색 화면|실행 파일과 남은 흔적을 포렌식 관점으로 연결
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 행위 관찰 화면|분석 대상 프로그램의 통신 흔적 확인
+/media/tools/ghidra-codebrowser.png|Ghidra 정적 분석 화면
 {{< /portfolio_slider >}}
 
 ## 실제 활동에서 연결한 리버싱 주제

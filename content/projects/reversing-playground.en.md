@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 30
 role: "Static/Dynamic Analysis Practice · Reusable Documentation Workflow"
-image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg"
+image: "/media/tools/ghidra-codebrowser.png"
 tags:
   - Reversing
   - Binary Analysis
@@ -21,9 +21,7 @@ The structure is based on Ghidra-style static analysis where input length, succe
 ## Analysis Flow Images
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Decompiled code, function flow, and string clues
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy File Evidence Screen|Executable analysis connected with forensic artifacts
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Communication Trace Screen|Network behavior from analyzed programs
+/media/tools/ghidra-codebrowser.png|Ghidra Static Analysis Screen
 {{< /portfolio_slider >}}
 
 ## Responsibilities
