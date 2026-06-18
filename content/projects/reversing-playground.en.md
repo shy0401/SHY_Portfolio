@@ -18,12 +18,12 @@ This project focuses on practicing static and dynamic binary analysis on trainin
 
 The structure is based on Ghidra-style static analysis where input length, success strings, file structure, and execution output are interpreted together.
 
-## Tool-Based Reference Images
+## Analysis Flow Images
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Reference image for organizing decompiled code, function flow, and string clues
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy File Evidence Screen|Reference image for connecting executable analysis with forensic artifacts
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Communication Trace Screen|Tool screen for reviewing network behavior from analyzed programs
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Decompiled code, function flow, and string clues
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy File Evidence Screen|Executable analysis connected with forensic artifacts
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Communication Trace Screen|Network behavior from analyzed programs
 {{< /portfolio_slider >}}
 
 ## Responsibilities

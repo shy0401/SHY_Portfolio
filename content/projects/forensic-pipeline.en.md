@@ -16,13 +16,13 @@ tags:
 
 This project automates repetitive baseline forensic tasks to reduce turnaround time and standardize evidence-ready outputs. The goal is to separate originals and working copies, then record hashes, file signatures, metadata, and timelines in a consistent format.
 
-The project is based on evidence exploration, timeline reconstruction, and file-structure workflows used in public analysis tools such as Autopsy, Wireshark, and Ghidra.
+The project is based on evidence exploration, timeline reconstruction, and file-structure workflows.
 
-## Tool-Based Reference Images
+## Analysis Flow Images
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen|Reference screen for exploring evidence images, file systems, and timeline data
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Forensics Screen|Analysis image for reviewing communication traces and event timing at the packet level
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen|Evidence images, file systems, and timeline data
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Forensics Screen|Communication traces and event timing at the packet level
 /media/cyber-investigation/evidence-report-flow.svg|Evidence-to-Report Flow|The evidence-report connection structure targeted by the forensic automation pipeline
 {{< /portfolio_slider >}}
 
@@ -39,7 +39,7 @@ https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png
 
 | Step | Automation/Standardization Item | Output |
 | --- | --- | --- |
-| 1. Collection Registration | Filename, path, collection time, and source | Evidence list |
+| 1. Collection Registration | Filename, path, collection time, and collection location | Evidence list |
 | 2. Integrity Calculation | SHA-256 or similar hash calculation | Hash record table |
 | 3. File Structure Review | Magic Number, extension, size, metadata | Basic file analysis table |
 | 4. Trace Extraction | Strings, suspicious URLs, embedded data, log fields | Clue list |

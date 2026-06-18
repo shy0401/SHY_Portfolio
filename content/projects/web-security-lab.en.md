@@ -18,12 +18,12 @@ This project reproduces key vulnerabilities in training web services and CTF-sty
 
 The project connects XSS, Path Traversal, and proxy/request manipulation scenarios with OWASP ZAP, browser developer tools, and Wireshark-style request analysis.
 
-## Tool-Based Reference Images
+## Analysis Flow Images
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen|Reference screen for proxying, crawling, and vulnerability detection workflows
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark HTTP Flow Analysis Screen|Reference image for reviewing requests, responses, and session flow at the packet level
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Exploration Screen|Reference image for connecting web attack traces with forensic investigation
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen|Proxying, crawling, and vulnerability detection workflows
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark HTTP Flow Analysis Screen|Requests, responses, and session flow at the packet level
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Exploration Screen|Web attack traces connected with forensic investigation
 {{< /portfolio_slider >}}
 
 ## Responsibilities

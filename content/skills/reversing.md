@@ -16,7 +16,7 @@ tags:
 
 리버싱 학습은 실행 파일이 어떤 흐름으로 동작하는지 추적하고, 관찰한 행위를 근거 중심으로 설명하는 역량을 기르는 과정입니다. 현재는 기초 바이너리 분석 루틴을 반복하면서 정적 분석과 동적 분석의 역할을 구분해 기록하고 있습니다.
 
-리버싱 학습 이미지는 개인 풀이 캡처 대신 Ghidra 같은 공개 분석 도구 화면을 중심으로 정리했습니다. 지금은 입력값 길이, 실행 결과 문자열, 파일 내부 구조를 확인하는 과정을 “어떤 단서가 있었고, 어떤 방식으로 검증했는지” 기준으로 다시 정리하고 있습니다.
+지금은 입력값 길이, 실행 결과 문자열, 파일 내부 구조를 확인하는 과정을 “어떤 단서가 있었고, 어떤 방식으로 검증했는지” 기준으로 다시 정리하고 있습니다.
 
 ## 학습 로드맵
 
@@ -33,9 +33,9 @@ tags:
 ## 도구 기반 학습 이미지
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분석 화면|함수 목록, 디컴파일 결과, 문자열 단서를 함께 확인하는 리버싱 대표 도구 화면
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 파일 증거 탐색 화면|실행 파일과 남은 흔적을 포렌식 관점으로 이어서 확인하는 참고 이미지
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 행위 관찰 화면|분석 대상 프로그램의 통신 흔적을 네트워크 관점에서 확인하는 도구 화면
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra 정적 분석 화면|함수 목록, 디컴파일 결과, 문자열 단서 확인
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 파일 증거 탐색 화면|실행 파일과 남은 흔적을 포렌식 관점으로 연결
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 행위 관찰 화면|분석 대상 프로그램의 통신 흔적 확인
 {{< /portfolio_slider >}}
 
 ## 실제 활동에서 연결한 리버싱 주제
@@ -63,7 +63,7 @@ https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png
 - 작은 실습 바이너리부터 시작해 함수 단위로 흐름을 끊어 읽기
 - 문자열과 API 호출을 먼저 확인하고, 실제 실행 흐름과 비교
 - 디버거 관찰 결과를 스크린샷이나 표 형태로 남기고 분석 결론과 분리
-- 악성코드 분석 글과 공개 리버싱 워게임 자료를 참고해 분석 표현 방식 정리
+- 분석 표현 방식과 기록 문장을 일관된 형식으로 정리
 - CTF/대회 문제는 정답만 저장하지 않고 입력값, 실행 결과, 단서, 풀이 근거를 함께 정리
 - 리버싱 문제에서 나온 파일 구조 단서를 포렌식 학습과 연결해 재검토
 
@@ -73,7 +73,7 @@ https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png
 - 분석 결과를 프로젝트 페이지와 연결 가능한 형식으로 정리
 - 리버싱 학습 프로젝트에서 `정적 단서 → 동적 검증 → 행위 설명` 구조 반영
 - 사이버수사 준비 페이지와 연결해 기술 분석을 사건 흐름으로 설명하는 훈련 진행
-- Ghidra 등 공개 분석 도구 화면을 기준으로 정적 단서와 동적 검증 과정을 포트폴리오에 연결
+- Ghidra 등 분석 도구 기반 루틴을 정적 단서와 동적 검증 과정에 연결
 - Buffer Overflow 문제를 입력 검증, 경계값, 실행 흐름 분석 관점으로 다시 정리
 
 ## 앞으로의 계획
@@ -84,12 +84,6 @@ https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png
 - 리버싱 결과를 비전문가도 이해할 수 있는 요약문으로 작성
 - 도구 화면, 실습 캡처, 분석 노트를 분리해 리버싱 근거를 계속 축적
 - 디버거 관찰 결과를 사이버수사 보고서형 문장으로 바꾸는 연습 강화
-
-## 이미지 출처
-
-- [Ghidra 이미지](https://commons.wikimedia.org/wiki/File:Ghidra.jpg)
-- [Autopsy 공식 스크린샷](https://www.sleuthkit.org/autopsy/)
-- [Wireshark 3.6 스크린샷](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
 
 ## 관련 링크
 

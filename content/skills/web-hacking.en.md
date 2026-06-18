@@ -16,7 +16,7 @@ tags:
 
 My web hacking study does not stop at finding a vulnerability. I focus on explaining when it is reproducible, how it affects the service, and what remediation should be prioritized. The main reference frame is OWASP Top 10, HTTP request/response structure, auth/session flow, input validation, and path-handling issues.
 
-For web hacking study images, I avoid personal blog captures or screenshots that expose usernames. Instead, I use publicly available tool screens such as OWASP ZAP and Wireshark. I organize XSS, Path Traversal, proxy/request manipulation, and file-path analysis into the workflow `observation → hypothesis → reproduction → impact → response`.
+I organize XSS, Path Traversal, proxy/request manipulation, and file-path analysis into the workflow `observation → hypothesis → reproduction → impact → response`.
 
 ## Learning Roadmap
 
@@ -33,9 +33,9 @@ For web hacking study images, I avoid personal blog captures or screenshots that
 ## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen|Representative tool screen for spidering, request/response inspection, and vulnerability scanning
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Packet Analysis Screen|Reference image for checking HTTP requests, responses, sessions, and packet-level flow
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Exploration Screen|Reference screen for connecting post-attack files and logs with forensic investigation
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP Web Vulnerability Analysis Screen|Spidering, request/response inspection, and vulnerability scanning flow
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Packet Analysis Screen|HTTP requests, responses, sessions, and packet-level flow
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Exploration Screen|Post-attack files and logs connected with forensic investigation
 {{< /portfolio_slider >}}
 
 ## Web Hacking Topics Connected From Real Activities
@@ -53,7 +53,7 @@ https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Explor
 - Compare requests and responses using browser developer tools and Burp Suite-style workflow
 - Write notes in the order of `observation → hypothesis → reproduction → impact → response`
 - Build small vulnerable examples and compare behavior before and after fixes
-- Use OWASP, PortSwigger Web Security Academy, and MDN as external references for terminology and remediation logic
+- Keep vulnerability terminology and remediation logic organized with a consistent standard
 
 ## Detailed Practice Checklist
 
@@ -72,7 +72,7 @@ https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Explor
 - Reflected analysis flow in my web security project page
 - Strengthened the ability to classify challenge types through KISA and security competition experience
 - Practiced explaining issues from service-risk and remediation-priority perspectives
-- Connected public tool screens such as OWASP ZAP and Wireshark to XSS, Path Traversal, and proxy request manipulation learning records
+- Connected tool-based analysis routines to XSS, Path Traversal, and proxy request manipulation learning records
 - Practiced rewriting web vulnerability findings in an investigation-report style alongside police exam preparation
 
 ## Next Plan
@@ -82,12 +82,6 @@ https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Evidence Explor
 - Expand the web security project so readers can inspect analysis evidence from portfolio cards
 - Add timeline-based reconstruction of web logs from a cyber investigation perspective
 - Continue adding analysis notes that separate tool screenshots, practice records, and reasoning
-
-## Image Sources
-
-- [OWASP ZAP image](https://commons.wikimedia.org/wiki/File:OWASP-ZAP.png)
-- [Wireshark 3.6 screenshot](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
-- [Autopsy official screenshots](https://www.sleuthkit.org/autopsy/)
 
 ## Related Link
 

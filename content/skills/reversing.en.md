@@ -16,7 +16,7 @@ tags:
 
 Reversing study helps me understand how an executable behaves and explain observed behavior with evidence. I currently repeat basic binary analysis routines while separating static clues and dynamic verification.
 
-For reversing study images, I use public analysis tool screens such as Ghidra rather than personal challenge captures. I organize input length, execution output strings, and internal file structure around what clues are visible and how they can be verified.
+I organize input length, execution output strings, and internal file structure around what clues are visible and how they can be verified.
 
 ## Learning Roadmap
 
@@ -33,9 +33,9 @@ For reversing study images, I use public analysis tool screens such as Ghidra ra
 ## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Representative reversing tool screen for functions, decompiled code, and string clues
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy File Evidence Screen|Reference image for linking executable analysis with file artifacts
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Behavior Screen|Tool screen for checking communication artifacts from analyzed programs
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Functions, decompiled code, and string clues
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy File Evidence Screen|Executable analysis connected with file artifacts
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Behavior Screen|Communication artifacts from analyzed programs
 {{< /portfolio_slider >}}
 
 ## Reversing Topics Connected From Real Activities
@@ -63,7 +63,7 @@ https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png
 - Start with small training binaries and read control flow function by function
 - Check strings and API calls first, then compare them with actual execution flow
 - Keep debugger observations separate from analysis conclusions
-- Review public reversing writeups and training materials to improve explanation style
+- Keep analysis wording and record structure consistent across notes
 - For CTF/competition challenges, record input, output, clues, and reasoning together instead of saving only the answer
 - Revisit file-structure clues from reversing problems through the forensics learning track
 
@@ -73,7 +73,7 @@ https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png
 - Organized findings into project-linkable format
 - Reflected the structure `static clue → dynamic verification → behavior explanation` in the reversing study project
 - Connected reversing outputs with cyber investigation preparation by translating technical findings into incident flow
-- Connected public analysis tool screens such as Ghidra to static clues and dynamic verification records
+- Connected analysis tool routines to static clues and dynamic verification records
 - Reorganized the Buffer Overflow challenge through input validation, boundary value, and execution-flow perspectives
 
 ## Next Plan
@@ -84,12 +84,6 @@ https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png
 - Write non-specialist summaries for reversing results
 - Keep accumulating reversing evidence by separating tool screens, practice captures, and analysis notes
 - Strengthen the practice of converting debugger observations into cyber-investigation-style explanations
-
-## Image Sources
-
-- [Ghidra image](https://commons.wikimedia.org/wiki/File:Ghidra.jpg)
-- [Autopsy official screenshots](https://www.sleuthkit.org/autopsy/)
-- [Wireshark 3.6 screenshot](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
 
 ## Related Link
 

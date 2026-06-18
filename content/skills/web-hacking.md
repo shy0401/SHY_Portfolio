@@ -16,7 +16,7 @@ tags:
 
 웹해킹 학습은 “취약점을 찾았다”에서 끝나지 않고, 어떤 조건에서 재현되는지, 서비스에 어떤 영향을 주는지, 어떻게 대응해야 하는지까지 설명하는 것을 목표로 합니다. 현재는 OWASP Top 10, HTTP 요청/응답 구조, 인증·세션 흐름, 입력값 검증, 경로 처리 취약점을 중심으로 실습하고 있습니다.
 
-웹해킹 실습 이미지는 개인 블로그 캡처나 사용자명이 드러나는 화면 대신, OWASP ZAP·Wireshark처럼 공개적으로 확인 가능한 보안 도구 화면을 기준으로 정리했습니다. 지금은 XSS, Path Traversal, 프록시/요청 조작, 파일 경로 확인 주제를 `관찰 → 가설 → 재현 → 영향도 → 대응` 순서의 분석 기록으로 다시 정리하고 있습니다.
+지금은 XSS, Path Traversal, 프록시/요청 조작, 파일 경로 확인 주제를 `관찰 → 가설 → 재현 → 영향도 → 대응` 순서의 분석 기록으로 다시 정리하고 있습니다.
 
 ## 학습 로드맵
 
@@ -33,9 +33,9 @@ tags:
 ## 도구 기반 학습 이미지
 
 {{< portfolio_slider >}}
-https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP 웹 취약점 분석 화면|스파이더링, 요청/응답 확인, 취약점 스캔 흐름을 학습할 때 참고하는 대표 도구 화면
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 패킷 분석 화면|HTTP 요청, 응답, 세션 흐름을 네트워크 레벨에서 확인하는 학습 이미지
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 화면|웹 공격 이후 남는 파일·로그 흔적을 포렌식 관점으로 이어서 확인하는 참고 화면
+https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP 웹 취약점 분석 화면|스파이더링, 요청/응답 확인, 취약점 스캔 흐름 학습
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 패킷 분석 화면|HTTP 요청, 응답, 세션 흐름을 네트워크 레벨에서 확인하는 학습
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 화면|웹 공격 이후 남는 파일·로그 흔적을 포렌식 관점으로 연결
 {{< /portfolio_slider >}}
 
 ## 실제 활동에서 연결한 웹해킹 주제
@@ -53,7 +53,7 @@ https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 �
 - Burp Suite/브라우저 개발자 도구 흐름을 기준으로 요청과 응답 비교
 - 취약점별로 `관찰 → 가설 → 재현 → 영향도 → 대응` 순서의 노트 작성
 - 실습용 프로젝트에서는 취약 코드를 직접 만들고, 수정 전후 동작을 비교
-- OWASP, PortSwigger Web Security Academy, MDN 문서를 참고해 용어와 대응 설명을 정리
+- 취약점 용어와 대응 설명을 일관된 기준으로 정리
 
 ## 세부 실습 체크리스트
 
@@ -72,7 +72,7 @@ https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 �
 - 웹 보안 프로젝트 페이지에 분석 흐름 반영
 - KISA/정보보호 대회 경험을 통해 제한 시간 안에서 문제 유형을 분류하는 감각 강화
 - 보안 문제를 단순 풀이가 아니라 서비스 위험도 관점으로 설명하는 연습 진행
-- OWASP ZAP, Wireshark 등 공개 도구 화면을 바탕으로 XSS, Path Traversal, 프록시 요청 조작 학습 흐름을 포트폴리오에 연결
+- OWASP ZAP, Wireshark 등 도구 기반 분석 흐름을 XSS, Path Traversal, 프록시 요청 조작 학습과 연결
 - 경찰순경시험 준비와 병행하며 웹 취약점 분석 결과를 사이버수사 보고서형 문장으로 정리하는 연습 진행
 
 ## 앞으로의 계획
@@ -82,12 +82,6 @@ https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 �
 - 웹 보안 프로젝트와 연결해 실제 포트폴리오 카드에서 분석 근거를 확인할 수 있도록 확장
 - 사이버수사 관점에서 웹 로그와 공격 흐름을 타임라인으로 재구성하는 연습 추가
 - 도구 화면과 실습 기록을 함께 남겨 문제 유형별 분석 노트를 계속 추가
-
-## 이미지 출처
-
-- [OWASP ZAP 이미지](https://commons.wikimedia.org/wiki/File:OWASP-ZAP.png)
-- [Wireshark 3.6 스크린샷](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
-- [Autopsy 공식 스크린샷](https://www.sleuthkit.org/autopsy/)
 
 ## 관련 링크
 

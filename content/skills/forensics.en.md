@@ -16,7 +16,7 @@ tags:
 
 Forensics study is about finding digital traces, preserving them as reliable evidence, and explaining them as an incident flow. I study evidence collection, integrity verification, timeline reconstruction, and report writing as one connected workflow for cyber investigation preparation.
 
-Forensics study images are organized around real analysis tools such as Autopsy, Wireshark, and Ghidra instead of personal writeup screenshots. I study file signatures, hex values, image structure, and hidden-string clues through the flow `original preservation → clue extraction → interpretation → reporting`.
+I study file signatures, hex values, image structure, and hidden-string clues through the flow `original preservation → clue extraction → interpretation → reporting`.
 
 ## Learning Roadmap
 
@@ -33,9 +33,9 @@ Forensics study images are organized around real analysis tools such as Autopsy,
 ## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen|Reference screen for examining evidence images, file systems, timelines, and keyword searches
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Forensics Screen|Reference image for checking communication traces and event time at the packet level
-https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Tool screen used to connect executable structure and string clues with forensic artifacts
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen|Evidence images, file systems, timelines, and keyword searches
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark Network Forensics Screen|Communication traces and event time at the packet level
+https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Analysis Screen|Executable structure and string clues connected with forensic artifacts
 {{< /portfolio_slider >}}
 
 ## Forensics Topics Connected From Real Activities
@@ -64,7 +64,7 @@ https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Ana
 - Calculate hashes first and check whether files change before and after analysis
 - Separate IPs, accounts, timestamps, request paths, and event IDs into tables
 - Connect the workflow with my forensic automation project for repeatable collection and organization
-- Refer to public materials such as NIST, The Sleuth Kit, Autopsy, and Volatility to refine terminology and procedure descriptions
+- Keep forensic terminology and procedure descriptions aligned with a consistent standard
 - Use a Hex Editor to verify file headers/signatures and compare extension with actual file type
 - For image/document files, inspect metadata, strings, file tail, and embedded-data traces through a separate checklist
 
@@ -74,7 +74,7 @@ https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Ana
 - Applied the workflow to the forensic automation project
 - Managed award/career proof files in the portfolio with clear paths and explanations
 - Connected security monitoring experience with the flow from detection event to investigation material
-- Connected public tool screens such as Autopsy, Wireshark, and Ghidra to evidence exploration and reasoning records
+- Connected tool-based analysis routines to evidence exploration and reasoning records
 - Organized file-signature and hex-analysis workflow concretely in the forensics page
 
 ## Next Plan
@@ -85,12 +85,6 @@ https://upload.wikimedia.org/wikipedia/commons/9/91/Ghidra.jpg|Ghidra Static Ana
 - Strengthen legal and ethical evidence-preservation perspective through the cyber investigation page
 - Keep accumulating evidence captures and reasoning notes while separating tool screenshots from personal practice records
 - Strengthen the practice of connecting web hacking/reversing outputs with forensic evidence in one timeline
-
-## Image Sources
-
-- [Autopsy official screenshots](https://www.sleuthkit.org/autopsy/)
-- [Wireshark 3.6 screenshot](https://commons.wikimedia.org/wiki/File:Wireshark_3.6_screenshot.png)
-- [Ghidra image](https://commons.wikimedia.org/wiki/File:Ghidra.jpg)
 
 ## Related Link
 

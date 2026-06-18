@@ -16,13 +16,13 @@ tags:
 
 반복적인 포렌식 기초 작업을 자동화해 분석 시간을 줄이고, 증거 정리 형식을 표준화하기 위한 프로젝트입니다. 파일을 수집한 뒤 원본과 분석 사본을 구분하고, 해시값·파일 시그니처·메타데이터·타임라인을 일정한 형식으로 기록하는 흐름을 목표로 합니다.
 
-이 프로젝트는 Autopsy, Wireshark, Ghidra 같은 공개 분석 도구에서 사용하는 증거 탐색·타임라인·파일 구조 확인 흐름을 기반으로 구성했습니다.
+이 프로젝트는 증거 탐색·타임라인·파일 구조 확인 흐름을 기반으로 구성했습니다.
 
-## 도구 기반 참고 이미지
+## 분석 흐름 이미지
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 화면|증거 이미지와 파일 시스템을 탐색하고 타임라인으로 정리하는 참고 화면
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 포렌식 화면|통신 흔적과 이벤트 시간을 패킷 단위로 확인하는 분석 이미지
+https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 화면|증거 이미지와 파일 시스템을 탐색하고 타임라인으로 정리
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark 네트워크 포렌식 화면|통신 흔적과 이벤트 시간을 패킷 단위로 확인
 /media/cyber-investigation/evidence-report-flow.svg|증거 수집부터 보고까지의 흐름|포렌식 자동화 파이프라인이 목표로 하는 증거-보고 연결 구조
 {{< /portfolio_slider >}}
 
@@ -39,7 +39,7 @@ https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png
 
 | 단계 | 자동화/표준화 항목 | 산출물 |
 | --- | --- | --- |
-| 1. 수집 등록 | 파일명, 경로, 수집 시각, 수집 출처 입력 | 증거 목록 |
+| 1. 수집 등록 | 파일명, 경로, 수집 시각, 수집 위치 입력 | 증거 목록 |
 | 2. 무결성 계산 | SHA-256 등 해시값 계산 | 해시 기록표 |
 | 3. 파일 구조 확인 | Magic Number, 확장자, 크기, 메타데이터 확인 | 파일 기본 분석표 |
 | 4. 흔적 추출 | 문자열, 의심 URL, 삽입 데이터, 로그 필드 추출 | 단서 목록 |

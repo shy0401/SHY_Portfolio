@@ -18,11 +18,11 @@ tags:
 
 이 프로젝트는 XSS, Path Traversal, 프록시/요청 조작 문제를 OWASP ZAP, 브라우저 개발자 도구, Wireshark 흐름과 연결해 구성했습니다.
 
-## 도구 기반 참고 이미지
+## 분석 흐름 이미지
 
 {{< portfolio_slider >}}
 https://upload.wikimedia.org/wikipedia/commons/b/b0/OWASP-ZAP.png|OWASP ZAP 웹 취약점 분석 화면|프록시, 크롤링, 취약점 탐지 흐름을 프로젝트 분석 절차와 연결
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark HTTP 흐름 분석 화면|요청/응답과 세션 흐름을 패킷 관점에서 검토하는 참고 이미지
+https://upload.wikimedia.org/wikipedia/commons/c/cf/Wireshark_3.6_screenshot.png|Wireshark HTTP 흐름 분석 화면|요청/응답과 세션 흐름을 패킷 관점에서 검토
 https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 증거 탐색 화면|웹 공격 이후 남는 파일·로그 흔적을 포렌식 프로젝트와 연결
 {{< /portfolio_slider >}}
 
