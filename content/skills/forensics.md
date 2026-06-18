@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 30
 description: "디지털 증거 수집, 무결성 검증, 타임라인 분석 학습 로드맵"
-image: "https://www.sleuthkit.org/autopsy/images/v3/overview.png"
+image: "/media/tools/autopsy-digital-forensics.png"
 tags:
   - Digital Forensics
   - Evidence
@@ -33,7 +33,7 @@ tags:
 ## 도구 기반 학습 이미지
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 분석 화면
+/media/tools/autopsy-digital-forensics.png|Autopsy 디지털 포렌식 분석 화면
 {{< /portfolio_slider >}}
 
 ## 실제 활동에서 연결한 포렌식 주제

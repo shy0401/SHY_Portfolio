@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 20
 role: "Evidence Automation · Integrity Validation · Reporting Template Design"
-image: "https://www.sleuthkit.org/autopsy/images/v3/overview.png"
+image: "/media/tools/autopsy-digital-forensics.png"
 tags:
   - Forensics
   - Automation
@@ -21,7 +21,7 @@ The project is based on evidence exploration, timeline reconstruction, and file-
 ## Analysis Flow Images
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen
+/media/tools/autopsy-digital-forensics.png|Autopsy Digital Forensics Screen
 {{< /portfolio_slider >}}
 
 ## Responsibilities

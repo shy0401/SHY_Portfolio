@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 20
 role: "증거 정리 자동화 · 무결성 검증 · 보고 템플릿 설계"
-image: "https://www.sleuthkit.org/autopsy/images/v3/overview.png"
+image: "/media/tools/autopsy-digital-forensics.png"
 tags:
   - Forensics
   - Automation
@@ -21,7 +21,7 @@ tags:
 ## 분석 흐름 이미지
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy 디지털 포렌식 화면
+/media/tools/autopsy-digital-forensics.png|Autopsy 디지털 포렌식 화면
 {{< /portfolio_slider >}}
 
 ## 수행 내용

@@ -4,7 +4,7 @@ date: 2026-06-16
 draft: false
 weight: 30
 description: "Roadmap for digital evidence collection, integrity verification, and timeline analysis"
-image: "https://www.sleuthkit.org/autopsy/images/v3/overview.png"
+image: "/media/tools/autopsy-digital-forensics.png"
 tags:
   - Digital Forensics
   - Evidence
@@ -33,7 +33,7 @@ I study file signatures, hex values, image structure, and hidden-string clues th
 ## Tool-Based Study Images
 
 {{< portfolio_slider >}}
-https://www.sleuthkit.org/autopsy/images/v3/overview.png|Autopsy Digital Forensics Screen
+/media/tools/autopsy-digital-forensics.png|Autopsy Digital Forensics Screen
 {{< /portfolio_slider >}}
 
 ## Forensics Topics Connected From Real Activities
