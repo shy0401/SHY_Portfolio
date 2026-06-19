@@ -39,7 +39,6 @@ I have completed the English and Korean history requirements through TOEIC and t
 - Completed TOEIC 650 and Korean History Proficiency Test proof for the police exam requirements
 - Cyber monitoring soldier career record is connected to detection, situational awareness, and record-centered security work
 - Reading contest excellence award strengthened long-form writing, structure, and persuasive communication
-- Project pages are organized around `problem definition → analysis process → output → next improvement`
 
 ## Next Plan
 
