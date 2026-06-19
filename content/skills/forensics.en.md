@@ -75,15 +75,6 @@ I study file signatures, hex values, image structure, and hidden-string clues th
 - Connected Autopsy-based analysis routines to evidence exploration and reasoning records
 - Organized file-signature and hex-analysis workflow concretely in the forensics page
 
-## Next Plan
-
-- Build web-attack log scenarios and practice evidence flow reconstruction
-- Connect reversing findings with forensic traces left by executables
-- Draft reports in the order of `summary → evidence → analysis → judgment → response`
-- Strengthen legal and ethical evidence-preservation perspective through the cyber investigation page
-- Keep accumulating evidence captures and reasoning notes while separating tool screenshots from personal practice records
-- Strengthen the practice of connecting web hacking/reversing outputs with forensic evidence in one timeline
-
 ## Related Link
 
 - [Forensic Automation Project](/en/projects/forensic-pipeline/)
