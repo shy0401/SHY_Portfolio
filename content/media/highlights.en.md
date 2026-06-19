@@ -5,6 +5,8 @@ draft: false
 weight: 20
 description: "Highlights that connect security learning, awards, AI.SW activity, and developer portfolio branding"
 image: "/media/awards/honam-mini-challenge-kisa-grand-prize.jpg"
+image_fit: contain
+hide_image_overlay: true
 ---
 
 ## Highlight Cards

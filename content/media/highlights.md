@@ -5,6 +5,8 @@ draft: false
 weight: 20
 description: "보안 학습, 수상 성과, AI.SW 활동, 개발 포트폴리오를 함께 보여주는 하이라이트"
 image: "/media/awards/honam-mini-challenge-kisa-grand-prize.jpg"
+image_fit: contain
+hide_image_overlay: true
 ---
 
 ## 하이라이트 카드
