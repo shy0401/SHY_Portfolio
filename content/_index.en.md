@@ -58,7 +58,6 @@ This portfolio connects cybersecurity awards, cyber monitoring career records, c
 /media/awards/gyeryong-reading-contest-excellence.png|Reading Contest Excellence Award|Gyeryongdae Service Support Group award
 /media/certificates/craftsman-it.png|Craftsman Information Processing|Certificate proof
 /media/certificates/toeic-650.jpg|TOEIC 650|Language score report
-https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1400&q=80|Cyber Workspace|Security workspace visual
 {{< /portfolio_slider >}}
 
 ## Contact Channels

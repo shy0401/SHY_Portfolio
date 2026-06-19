@@ -66,7 +66,6 @@ keywords:
 /media/awards/gyeryong-reading-contest-excellence.png|장병 독후감 공모전 우수상|계룡대근무지원단 수상
 /media/certificates/craftsman-it.png|정보처리기능사|자격 증빙
 /media/certificates/toeic-650.jpg|TOEIC 650|어학 성적
-https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1400&q=80|Cyber Workspace|보안 작업 공간 이미지
 {{< /portfolio_slider >}}
 
 ## 연락 채널

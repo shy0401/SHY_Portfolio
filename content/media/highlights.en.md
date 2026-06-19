@@ -16,7 +16,4 @@ image: "/media/awards/honam-mini-challenge-kisa-grand-prize.jpg"
 /media/awards/modi-education-certificate-2021.png|2021 MODI Online Education Camp|SW and physical-computing completion and 3rd-place record
 /media/awards/bcg-hacking-competition-result.png|2021 BCG Hacking Competition 2nd Place|Early first-year security competition milestone
 /media/awards/gyeryong-reading-contest-excellence.png|Reading Contest Excellence Award|Writing capability connected to security documentation
-https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1400&q=80|Cyber Workspace|Security analysis environment visual
-https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=80|Security Concept|Portfolio visual style
-https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1400&q=80|Incident Response Visual|Security response atmosphere
 {{< /portfolio_slider >}}
